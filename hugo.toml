@@ -1,0 +1,4 @@
+baseURL = 'https://skalahive-content.github.io/'
+languageCode = 'en-us'
+title = 'ScalHive'
+#theme = ["github.com/TNTU-RS-internship/skalahive-theme"]
