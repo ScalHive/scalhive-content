@@ -1,0 +1,31 @@
+baseURL = 'https://skalahive-content.github.io/'
+languageCode = 'en-us'
+title = 'ScalHive'
+#theme = ["github.com/TNTU-RS-internship/skalahive-theme"]
+#theme = ["gohugo-theme-ananke"]
+
+DefaultContentLanguage = "en"
+[languages]
+ [languages.en]
+  languageCode = 'en'
+  weight = 1
+  contentDir = "content/en"
+  [languages.en.params]
+    footerContactButton = "Contact us"
+    footerContactButtonPath = '/contacts/'
+    customFooterLine1 = "Berezhans'ka St 10 "
+    customFooterLine2 = '46027, Ternopil, Ukraine'
+    customFooterLine3 = '+38 068 670 2808'
+ [languages.ua]
+  languageCode = 'uk'
+  weight = 2
+  contentDir = "content/ua"
+  [languages.ua.params]
+    footerContactButton = "Зв'яжіться з нами"
+    footerContactButtonPath = '/ua/contacts/'
+    customFooterLine1 = 'вул. Бережанська 10'
+    customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
+    customFooterLine3 = '+38 068 670 2808'
+
+[params]
+favicon = '/img/scalhive_logo.png'
