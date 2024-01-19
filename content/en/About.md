@@ -1,5 +1,10 @@
 ---
 title: About us
 url: '/about'
-draft: true
+
+menu:
+  main:
+    identifier: about
+    name: About us
+    weight: 1
 ---

@@ -1,8 +1,7 @@
-baseURL = 'https://skalahive-content.github.io/'
+baseURL = 'https://scalhive-content.github.io/'
 languageCode = 'en-us'
 title = 'ScalHive'
-#theme = ["github.com/TNTU-RS-internship/skalahive-theme"]
-#theme = ["gohugo-theme-ananke"]
+theme = ["rs-theme"]
 
 DefaultContentLanguage = "en"
 [languages]
@@ -28,4 +27,14 @@ DefaultContentLanguage = "en"
     customFooterLine3 = '+38 068 670 2808'
 
 [params]
-favicon = '/img/scalhive_logo.png'
+favicon = '/img/scalhive_logo.ico'
+siteLogo = '/img/scalhive_logo.png'
+siteLogoMobile = '/img/scalhive_logo.png'
+mobileMenuLight = true
+header_background_image = '/img/header_photo.webp'
+header_image_line = '/img/try_small.webp'
+background_color_class = "bg-mid-gray" # header and footer default background color. Choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+body_classes = "avenir bg-white" # font and body background color
+recent_posts_number = 3 # for index page
+date_format = '2006-01-02'
+post_content_classes = "avenir"

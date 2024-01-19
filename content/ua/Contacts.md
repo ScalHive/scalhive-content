@@ -1,5 +1,9 @@
 ---
 title: Контакти
 url: '/ua/contacts'
-draft: true
+menu:
+  main:
+    identifier: contacts
+    name: Контакти
+    weight: 1
 ---

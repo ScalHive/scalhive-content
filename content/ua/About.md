@@ -1,5 +1,10 @@
 ---
 title: Про компанію
 url: '/ua/about'
-draft: true
+
+menu:
+  main:
+    identifier: about
+    name: Про нас
+    weight: 1
 ---
