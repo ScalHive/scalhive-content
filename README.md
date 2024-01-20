@@ -71,3 +71,34 @@ Check if Hugo are installed correctly:
 ```shell
 hugo version
 ```
+
+## Deploy
+Website is deploying automatically using GitHub Pages technology from 2 branches - `main` and `dev`
+
+For local deploy use command:
+```shell
+docker-compose up
+```
+The site will be available at http://localhost:1313.
+
+## Multilingual
+
+Each markdown file that represent separate site page must have appropriation in each site language, otherwise language
+button won't be presented in Menu. If some page isn't translated to other language, please for empty markdown files use
+below text as page content.
+
+For English
+```text
+Unfortunately, the page is not translated into this language.
+```
+
+For Ukrainian
+```text
+На жаль, сторінка не перекладена на цю мову.
+```
+
+## Images
+
+could be stored in two places: `/static/` or `/assets/` folders.
+- use `/assets/` folder for images which will be presented in page `main` section (images will be rendered by build);
+- use `/static/` folder for background images specified in CSS code `{ background: url(""); }` (banner and header images) and for images which will be used for sharing but not presented on the site anywhere (such images won't be rendered by build).
