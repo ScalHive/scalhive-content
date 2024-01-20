@@ -1,4 +1,3 @@
-# skala-johnsonhive-content
 # scalhive-content
 
 The intent of this repository is to develop the content of the scalhive organization's website using the Hugo framework.
@@ -18,3 +17,57 @@ The intent of this repository is to develop the content of the scalhive organiza
 - [Go text template](https://pkg.go.dev/text/template)
 - Article [Add Contact form to Hugo with Google forms](https://blog.puvvadi.me/posts/add-contact-form-hugo-google-forms/)
 - [Add-ons for Hugo](https://hugocodex.org/add-ons/) - Extend Hugo’s functionality
+
+## [Hugo Installation](https://gohugo.io/installation/)
+
+### Prerequisites
+
+- [Git](https://git-scm.com/)
+- [Go](https://go.dev/)
+- [Dart Sass](https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass)
+
+Git is required to:
+
+- Build Hugo from source 
+- Use the Hugo Modules feature 
+- Install a theme as a Git submodule 
+- Access commit information from a local Git repository 
+- Host your site with services such as CloudCannon, Cloudflare Pages, GitHub Pages, GitLab Pages, and Netlify
+
+Go is required to:
+
+- Build Hugo from source
+- Use the Hugo Modules feature
+
+Dart Sass is required to transpile Sass to CSS when using the latest features of the Sass language.
+
+#### Check if the tools are installed
+
+```shell
+git version
+go verison
+```
+
+If you'll install Hugo as a [Snap package](https://gohugo.io/installation/linux/#snap) - there is no need to install Dart Sass. The Hugo Snap package includes Dart Sass.
+
+Installation instructions:
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Go](https://go.dev/doc/install)
+- [Dart Sass](https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass)
+
+### [Hugo Linux Installation](https://gohugo.io/installation/linux/)
+
+Snap:
+```shell
+sudo snap install hugo
+```
+
+Homebrew:
+```shell
+brew install hugo
+```
+
+Check if Hugo are installed correctly:
+```shell
+hugo version
+```
