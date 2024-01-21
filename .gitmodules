@@ -1,0 +1,3 @@
+[submodule "themes/scalhive-theme"]
+	path = themes/scalhive-theme
+	url = git@github.com:TNTU-RS-internship/scalhive-theme.git
