@@ -1,7 +1,7 @@
-baseURL = 'https://scalhive-content.github.io/'
+baseURL = 'https://fantastic-engine-z4g5o6k.pages.github.io/'
 languageCode = 'en-us'
 title = 'ScalHive'
-theme = ["rs-theme"]
+theme = ["github.com/TNTU-RS-internship/scalhive-theme"]
 
 DefaultContentLanguage = "en"
 [languages]
