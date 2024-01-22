@@ -1,7 +1,11 @@
 ---
 title: ScalHive LLC
-url: '/ua'
-draft: true
----
+url: '/'
+cascade:
+  featured_image: '/img/background_ph.webp'
+final_message: Види діяльності
+layout: for-img-section
+sections_folder: page-index-services
 
+---
 ## Українська версія

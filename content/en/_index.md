@@ -1,7 +1,11 @@
 ---
 title: ScalHive LLC
 url: '/'
-draft: true
+cascade:
+  featured_image: '/img/background_ph.webp'
+final_message: Home page
+layout: for-img-section
+
 ---
 
 ## English version

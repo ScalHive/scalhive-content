@@ -1,5 +1,9 @@
 ---
 title: Послуги
 url: '/ua/services'
-draft: true
+menu:
+  main:
+    identifier: services
+    name: Види діяльності
+    weight: 1
 ---

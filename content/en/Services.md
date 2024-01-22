@@ -1,5 +1,11 @@
 ---
 title: Services
 url: '/services'
-draft: true
+menu:
+  main:
+    identifier: services
+    name: Services
+    weight: 1
+
 ---
+## Services page
