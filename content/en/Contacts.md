@@ -1,5 +1,9 @@
 ---
 title: Contacts
 url: '/contacts'
-draft: true
+menu:
+  main:
+    identifier: contacts
+    name: Contacts
+    weight: 1
 ---
