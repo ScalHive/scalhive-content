@@ -7,6 +7,5 @@ final_message: Види діяльності
 layout: for-img-section
 sections_folder: page-index-services
 
-draft: true
 ---
 ## Українська версія
