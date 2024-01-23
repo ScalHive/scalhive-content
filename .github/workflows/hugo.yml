@@ -64,7 +64,7 @@ jobs:
             echo "Site in production environment was built"
           else
             hugo \
-              --environment DEV
+              --environment DEV \
               -D \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
