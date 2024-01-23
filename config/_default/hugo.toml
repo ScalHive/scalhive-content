@@ -1,6 +1,6 @@
-baseURL = 'https://fantastic-engine-z4g5o6k.pages.github.io/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
-title = 'ScalHive'
+title = 'ScalHive Local'
 theme = ["github.com/TNTU-RS-internship/scalhive-theme"]
 
 DefaultContentLanguage = "en"
