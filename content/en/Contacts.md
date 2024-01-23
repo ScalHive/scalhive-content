@@ -5,5 +5,5 @@ menu:
   main:
     identifier: contacts
     name: Contacts
-    weight: 1
+    weight: 4
 ---

@@ -1,9 +1,9 @@
 ---
-title: Послуги
+title: Види діяльності
 url: '/ua/services'
 menu:
   main:
     identifier: services
     name: Види діяльності
-    weight: 1
+    weight: 2
 ---

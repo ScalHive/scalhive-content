@@ -5,5 +5,5 @@ menu:
   main:
     identifier: contacts
     name: Контакти
-    weight: 1
+    weight: 4
 ---
