@@ -61,13 +61,14 @@ jobs:
             hugo \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
-            echo "Site from main branch was built"
+            echo "Site in production environment was built"
           else
             hugo \
+              --environment DEV
               -D \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
-            echo "Site from dev branch was built"
+            echo "Site in DEV environment was built"
           fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
