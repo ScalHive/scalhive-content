@@ -57,7 +57,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          if [ ${{ github.ref == 'refs/heads/main' }} ]; then
+          if [ $GITHUB_REF == 'refs/heads/main' ]; then
             hugo \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
