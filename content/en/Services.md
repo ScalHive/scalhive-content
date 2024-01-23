@@ -5,7 +5,7 @@ menu:
   main:
     identifier: services
     name: Services
-    weight: 1
+    weight: 3
 
 ---
 ## Services page
