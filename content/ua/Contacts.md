@@ -1,13 +1,13 @@
 ---
-title: Contacts
-url: '/about/contacts'
+title: Контакти
+url: '/ua/about/contacts'
 omit_header_text: true
 description: We'd love to hear from you
 type: page
 menu:
   main:
     identifier: contacts
-    name: Contacts
+    name: Контакти
     weight: 4
 layout: contacts-with-google-form
 form_folder: contacts-form
