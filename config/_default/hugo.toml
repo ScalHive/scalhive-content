@@ -34,6 +34,7 @@ mobileMenuLight = true
 header_background_image = '/img/header_photo.webp'
 header_image_line = '/img/try_small.webp'
 background_color_class = "bg-mid-gray" # header and footer default background color. Choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+body_background_color = "#ced0ce"
 body_classes = "avenir bg-white" # font and body background color
 recent_posts_number = 3 # for index page
 date_format = '2006-01-02'
