@@ -1,6 +1,10 @@
 ---
 title: Who Are We?
 section_image: '/content-images/about_img_1.png'
+figure_render_class: ''
+middle_title_color_code: '#111111'
+subtitle_text_color: ''
+img_render_class: 'obj-fit-cover border-radius'
 alt: "ScalHive teammates in the Carpathians"
 weight: 1
 ---
