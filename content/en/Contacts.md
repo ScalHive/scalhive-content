@@ -16,7 +16,7 @@ action: "https://docs.google.com/forms/d/e/1FAIpQLSdJNvbnLgqbiqlGbSJYdhe6gKUHQy2
 response_page: '/thank-you'
 ---
 
-### Scal-Hive
+### ScalHive
 
 **email:** team@scalhive.com
 

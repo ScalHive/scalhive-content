@@ -1,6 +1,7 @@
 ---
 title: "Data Management and Analysis"
-section_image: "/content-images/services_img_3.png" 
+section_image: "/content-images/services_img_3.png"
+img_render_class: 'obj-fit-cover border-radius'
 weight: 3
 ---
 #### Data Science 
