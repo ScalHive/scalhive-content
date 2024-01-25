@@ -6,7 +6,7 @@ menu:
     identifier: services
     name: Види діяльності
     weight: 2
-final_message: Start using the best professional services today
+final_message: Почніть користуватись найкращим вже тепер!
 layout: img-right
 sections_folder: page-services
 ---

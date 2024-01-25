@@ -1,6 +1,6 @@
 ---
 title: Контакти
-url: '/ua/about/contacts'
+url: '/ua/contacts'
 omit_header_text: true
 description: We'd love to hear from you
 type: page
