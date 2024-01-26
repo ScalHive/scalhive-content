@@ -57,7 +57,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          if [ $GITHUB_REF == 'refs/heads/main' ]; then
+          if [ $GITHUB_REF == 'refs/heads/main' ] || { [ $GITHUB_EVENT_NAME == 'pull_request' ] && [ $GITHUB_HEAD_REF == 'main' ]; }; then
             hugo \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
