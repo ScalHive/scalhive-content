@@ -67,7 +67,7 @@ jobs:
               --environment DEV \
               -D \
               --minify \
-              --baseURL "${{ steps.pages.outputs.base_url }}/"
+              --baseURL "https://dev.scalhive.com/"
             echo "Site in DEV environment was built"
           fi
       - name: Upload artifact
@@ -89,4 +89,14 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/deploy-pages@v4
+      - name: Deploy to dev.scalhive.com
+        if: github.event_name == 'push' && github.ref == 'refs/heads/dev'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
