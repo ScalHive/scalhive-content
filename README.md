@@ -6,7 +6,7 @@ The intent of this repository is to develop the content of the scalhive organiza
 
 - [Hugo documentation](https://gohugo.io/documentation)
 - [Hugo Installation](https://gohugo.io/installation/)
-- Theme - [scalhive-content](https://github.com/TNTU-RS-internship/scalhive-theme.git)
+- Theme - [scalhive-theme](https://github.com/TNTU-RS-internship/scalhive-theme.git)
 - [Hugo docker images](https://hub.docker.com/r/klakegg/hugo)
 - [Hugo Internal Templates](https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates)
 - [Hugo themes](https://themes.gohugo.io/)
@@ -74,7 +74,15 @@ hugo version
 ```
 
 ## Deploy
-Website is deploying automatically using GitHub Pages technology from 2 branches - `main` and `dev`
+Website is deploying automatically using `GitHub Actions` and GitHub environment `deployment`.
+There are two versions of website - `development` and `main` (aka production).
+
+Website from `main` branch GitHub Actions builds using Hugo with `production` environment (HUGO_ENV=production)
+and deploys this website into GitHub Pages.
+
+Website from `dev` branch GitHub Actions builds using Hugo with `DEV` environment (HUGO_ENV=DEV) and deploys 
+this website into https://dev.scalhive.com, using [SamKirkland/FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action).
+For this there are 3 secrets and 1 environment variable in environment GitHub `deployment`.
 
 For local deploy use command:
 ```shell
@@ -96,9 +104,13 @@ scalhive-content/
 ├── content/
 ├── config/           <-- site configuration
 │   └── _default/
+│   │   └── hugo.toml
+│   └── production/
 │       └── hugo.toml
 ├── data/
 ├── static/
+├── .gitmodules
+├── go.mod
 ├── docker-compose.yml
 └── README.md
 ```
@@ -124,10 +136,10 @@ See [details](https://gohugo.io/hugo-pipes/introduction/).
 
 **config/**
 
-The `config` directory contains your site configuration, possibly split into multiple subdirectories and files. 
-For projects with minimal configuration or projects that do not need to behave differently in different environments, 
-a single configuration file named `hugo.toml` in the root of the project is sufficient. 
-See [details](https://gohugo.io/getting-started/configuration/#configuration-directory).
+The `config` directory contains site configuration, possibly split into multiple subdirectories and files.
+See [details](https://gohugo.io/getting-started/configuration/#configuration-directory). In this project there are two directories with configurations - `_default` and 
+`production`. Production configuration overrides default configuration, when site builds in `production` 
+environment (HUGO_ENV=production).
 
 **content/**
 
@@ -146,6 +158,14 @@ The `static` directory contains files that will be copied to the public director
 Before the introduction of [page bundles](https://gohugo.io/getting-started/glossary/#page-bundle) and 
 [asset pipelines](https://gohugo.io/hugo-pipes/introduction/), the static directory was also used for 
 images, CSS, and JavaScript. See [details](https://gohugo.io/content-management/static-files/).
+
+**.gitmodules**
+
+Include definition of [theme](https://github.com/TNTU-RS-internship/scalhive-theme) submodule
+
+**go.mod**
+
+Include go version and defines the version of [theme](https://github.com/TNTU-RS-internship/scalhive-theme) submodule
 
 **docker-compose.yml**
 
