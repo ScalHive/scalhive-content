@@ -34,7 +34,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     environment:
-      name: deployment
+      name: DEV
     env:
       HUGO_VERSION: 0.111.3
     steps:
