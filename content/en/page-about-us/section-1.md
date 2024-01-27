@@ -1,5 +1,5 @@
 ---
-title: Who Are We?
+title: "ScalHive: Pioneering Software Solutions Since 2015"
 section_image: '/content-images/about_img_1.png'
 figure_render_class: ''
 middle_title_color_code: '#111111'
@@ -9,7 +9,4 @@ alt: "ScalHive teammates in the Carpathians"
 weight: 1
 ---
 
-**ScalHive** is a young software development company. 
-Our company has been founded on 2015 in Ukraine.
-The people who work in our company are young and advanced **professionals**.
-In our team there are PhD, MSc and BSc holders.
+Founded in Ukraine, ScalHive has rapidly established itself as a beacon of innovation in software development. We are a vibrant team of young, forward-thinking professionals, including PhDs, MScs, and BScs, dedicated to pushing the boundaries of technology.
