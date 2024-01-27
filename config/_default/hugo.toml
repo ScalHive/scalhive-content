@@ -1,7 +1,7 @@
 baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'ScalHive DEV'
-theme = ["/home/nadi/projects/scalhive-theme"]
+theme = ["github.com/TNTU-RS-internship/scalhive-theme"]
 
 DefaultContentLanguage = "en"
 [languages]
