@@ -74,7 +74,9 @@ hugo version
 ```
 
 ## Deploy
-Website is deploying automatically using `GitHub Actions` and GitHub environment `deployment`.
+Website is deploying automatically using `GitHub Actions` and two GitHub environments: 
+- `DEV` for build job. Contains necessary environment variable `DEV_BASE_URL`.
+- `deployment` for deploy job. Contains necessary secrets `FTP_SERVER`, `FTP_USERNAME` and `FTP_PASSWORD`.
 There are two versions of website - `development` and `main` (aka production).
 
 Website from `main` branch GitHub Actions builds using Hugo with `production` environment (HUGO_ENV=production)
@@ -82,7 +84,7 @@ and deploys this website into GitHub Pages.
 
 Website from `dev` branch GitHub Actions builds using Hugo with `DEV` environment (HUGO_ENV=DEV) and deploys 
 this website into https://dev.scalhive.com, using [SamKirkland/FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action).
-For this there are 3 secrets and 1 environment variable in environment GitHub `deployment`.
+For this there are 3 secrets in environment GitHub `deployment`.
 
 For local deploy use command:
 ```shell
