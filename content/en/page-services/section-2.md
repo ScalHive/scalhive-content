@@ -1,6 +1,6 @@
 ---
 title: "Pipeline-Focused Data Engineers: Masters of Data Flow"
-section_image: "/content-images/services_img_2.png"
+section_image: "/content-images/services_img_en2.png"
 img_render_class: 'obj-fit-cover border-radius'
 weight: 2
 ---
@@ -10,7 +10,6 @@ ETL/ELT processes, SQL, and programming languages like Python, Scala, and Java.
 At ScalHive, we don't just find Pipeline-Focused Data Engineers; we find the right ones for you.
 Our rigorous vetting process considers your unique needs and demands,
 ensuring that we provide talent that is not only proven but also perfectly aligned with your objectives.
-
 Our Pipeline-Focused Data Engineers stand out for their:
 * Profound knowledge of the latest in data engineering technology and best practices
 * Expertise across a variety of programming languages
