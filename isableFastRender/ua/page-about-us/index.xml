@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Page-About-Uses on ScalHive DEV</title>
+    <link>http://localhost:1313/ua/page-about-us/</link>
+    <description>Recent content in Page-About-Uses on ScalHive DEV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <atom:link href="http://localhost:1313/ua/page-about-us/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Хто ми?</title>
+      <link>http://localhost:1313/ua/page-about-us/section-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-about-us/section-1/</guid>
+      <description>ScalHive - молода компанія з розробки програмного забезпечення, заснована у 2015 році в Україні. Наш колектив - це молоді та висококваліфіковані професіонали, серед яких є доктора філософії, магістри та бакалаври.</description>
+    </item>
+    <item>
+      <title>Що ми робимо?</title>
+      <link>http://localhost:1313/ua/page-about-us/section-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-about-us/section-2/</guid>
+      <description>Ми спеціалізуємося на створенні високопродуктивних, гнучких, надійних та реактивних застосунків, які можуть бути адаптовані до вашого бізнесу, сприяючи розвитку компанії. Наша команда вміло поєднує передові технології з досвідом в сфері технологій та маркетингу аби допомоги клієнтам використовувати передові технології для спрощення, трансформації та покращення.</description>
+    </item>
+    <item>
+      <title>Чому ми?</title>
+      <link>http://localhost:1313/ua/page-about-us/section-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-about-us/section-3/</guid>
+      <description>Індивідуальні рішення: Ми розумієм ваші унікальні виклики та створюємо рішення, які ідеально підходять.&#xA;Постійна підтримка: Ми забезпечуємо підтримку після завершення проекту, щоб допомогти систем розвиватись разом із вашим бізнесом.&#xA;Клієнтський підхід: Ми співпрацюємо з вами, забезпечуючи відкриту комунікацію та спільний шлях до успіху.</description>
+    </item>
+  </channel>
+</rss>

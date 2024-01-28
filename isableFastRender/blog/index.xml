@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on ScalHive DEV</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on ScalHive DEV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Jan 2024 10:02:57 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trank Based Development: Branch for release</title>
+      <link>http://localhost:1313/blog/post-2/</link>
+      <pubDate>Sun, 28 Jan 2024 10:02:57 +0200</pubDate>
+      <guid>http://localhost:1313/blog/post-2/</guid>
+      <description>Original article Branch: only when necessary, on incompatible policy, late, and instead of freeze Laura Wingerd &amp;amp; Christopher Seiwald (1998’s High-Level SCM Best Practices white paper from Perforce) If a team is pushing production releases monthly, then they are also going to have to push bug-fix releases between planned releases. To facilitate that, it is common for Trunk-Based Development Teams to make a release branch on a just in time basis - say a few days before the release.</description>
+    </item>
+    <item>
+      <title>Trunk Based Development: Introduction</title>
+      <link>http://localhost:1313/blog/post-1/</link>
+      <pubDate>Sat, 27 Jan 2024 20:02:30 +0200</pubDate>
+      <guid>http://localhost:1313/blog/post-1/</guid>
+      <description>Original article Introduction Trunk-Based Development is not a new branching model. The word ‘trunk’ is referent to the concept of a growing tree, where the fattest and longest span is the trunk, not the branches that radiate from it and are of more limited length. It has been a lesser known branching model of choice since the mid-nineties and considered tactically since the eighties. The largest of development organizations, like Google (as mentioned) and Facebook practice it at scale.</description>
+    </item>
+  </channel>
+</rss>

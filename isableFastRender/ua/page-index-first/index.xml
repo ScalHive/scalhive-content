@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Page-Index-Firsts on ScalHive DEV</title>
+    <link>http://localhost:1313/ua/page-index-first/</link>
+    <description>Recent content in Page-Index-Firsts on ScalHive DEV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <atom:link href="http://localhost:1313/ua/page-index-first/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Наше бачення</title>
+      <link>http://localhost:1313/ua/page-index-first/section-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-index-first/section-1/</guid>
+      <description>Технологія повинна працювати на Вашу користь, а не навпаки. Доки інші оберігають власні ізольовані архітектури, ми спрямовуємо зусилля на введення компаній в еру великих даних, надаючи системи та програмне забезпечення з масштабованістю та надійністю, що необхідні для подальшого розвитку і їх ефективного застосування.</description>
+    </item>
+    <item>
+      <title>Наша мета</title>
+      <link>http://localhost:1313/ua/page-index-first/section-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-index-first/section-2/</guid>
+      <description>Допомогти нашим клієнтам стати краще за допомогою систем, які поєднують масштабовану та стійку архітектуру з фактичними значеннями даних в реальному часі.</description>
+    </item>
+    <item>
+      <title>Наші напрями роботи</title>
+      <link>http://localhost:1313/ua/page-index-first/section-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-index-first/section-3/</guid>
+      <description> Аналітика в реальному часі Наука про дані для платформ інтернету речей (IoT) Персоналізація в реальному часі Електронна комерція Фінансові процеси в реальному часі Модернізація застосунків </description>
+    </item>
+  </channel>
+</rss>

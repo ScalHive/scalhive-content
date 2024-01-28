@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Page-Index-Firsts on ScalHive DEV</title>
+    <link>http://localhost:1313/page-index-first/</link>
+    <description>Recent content in Page-Index-Firsts on ScalHive DEV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/page-index-first/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Our vision</title>
+      <link>http://localhost:1313/page-index-first/section-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page-index-first/section-1/</guid>
+      <description>Technology works for you, not the other way around. While others protected proprietary, stand-alone architectures, we focused on taking companies into the data-driven age, providing systems and software with the scalability and reliability needed to drive the future marketplace</description>
+    </item>
+    <item>
+      <title>Our mission</title>
+      <link>http://localhost:1313/page-index-first/section-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page-index-first/section-2/</guid>
+      <description>To help our clients become real-time enterprises with systems that combine the scalability and resilience architecture with the real-time value of data.</description>
+    </item>
+    <item>
+      <title>Data Solutions</title>
+      <link>http://localhost:1313/page-index-first/section-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page-index-first/section-3/</guid>
+      <description>For:&#xA;Real-Time Analytics IoT Platforms Real-Time Personalization eCommerce Real-Time Financial Processes Application Modernization </description>
+    </item>
+  </channel>
+</rss>

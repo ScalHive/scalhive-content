@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head itemscope><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Trunk Based Development: Introduction | ScalHive DEV</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Original article Introduction Trunk-Based Development is not a new branching model. The word ‘trunk’ is referent to the concept of a growing tree, where the fattest and longest span is the trunk, not the branches that radiate from it and are of more limited length. It has been a lesser known branching model of choice since the mid-nineties and considered tactically since the eighties. The largest of development organizations, like Google (as mentioned) and Facebook practice it at scale.">
+    <meta name="generator" content="Hugo 0.122.0">
+    
+    
+    
+
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+<link rel="shortcut icon" href="/img/scalhive_logo.ico" type="image/x-icon" >
+
+
+    
+
+    
+    
+    <meta property="og:title" content="Trunk Based Development: Introduction" >
+<meta property="og:description" content="Original article Introduction Trunk-Based Development is not a new branching model. The word ‘trunk’ is referent to the concept of a growing tree, where the fattest and longest span is the trunk, not the branches that radiate from it and are of more limited length. It has been a lesser known branching model of choice since the mid-nineties and considered tactically since the eighties. The largest of development organizations, like Google (as mentioned) and Facebook practice it at scale." >
+<meta name="type" property="og:type" content="article" >
+<meta property="og:url" content="http://localhost:1313/blog/post-1/" ><meta property="article:section" content="blog" >
+<meta property="article:published_time" content="2024-01-27T20:02:30+02:00" >
+<meta property="article:modified_time" content="2024-01-27T20:02:30+02:00" >
+<meta itemprop="name" content="Trunk Based Development: Introduction">
+<meta itemprop="description" content="Original article Introduction Trunk-Based Development is not a new branching model. The word ‘trunk’ is referent to the concept of a growing tree, where the fattest and longest span is the trunk, not the branches that radiate from it and are of more limited length. It has been a lesser known branching model of choice since the mid-nineties and considered tactically since the eighties. The largest of development organizations, like Google (as mentioned) and Facebook practice it at scale.">
+<meta itemprop="type" content="article" >
+        <meta itemprop="datePublished" content="2024-01-27T20:02:30+02:00" >
+    
+
+    
+        <meta itemprop="dateModified" content="2024-01-27T20:02:30+02:00" >
+    
+
+    <meta itemprop="wordCount" content="764">
+<meta itemprop="keywords" content="development,VCS,work," >
+<meta name="twitter:card" content="summary" ><meta name="twitter:title" content="Trunk Based Development: Introduction" >
+<meta name="twitter:description" content="Original article Introduction Trunk-Based Development is not a new branching model. The word ‘trunk’ is referent to the concept of a growing tree, where the fattest and longest span is the trunk, not the branches that radiate from it and are of more limited length. It has been a lesser known branching model of choice since the mid-nineties and considered tactically since the eighties. The largest of development organizations, like Google (as mentioned) and Facebook practice it at scale." >
+
+	<script defer src="/js/scrolling.js"></script>
+<script defer src="/js/navigation.js"></script>
+<style>
+    :root {
+        --site-color: ;
+    }
+    .image-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: url("/img/try_small.webp") left;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+        z-index: 97;
+    }
+</style>
+
+  </head>
+
+  <body style="background-color:#FEFEFA;" class="ma0 avenir bg-white">
+    <div class="page-container">
+      <button onclick="topFunction()" id="btnBackToTop" ></button>
+      <div class="page-content">
+        
+   
+  
+
+
+<div id="menu-desktop">
+
+  
+  <header class="cover bg-right" style="background-image: url('http://localhost:1313/static-blog-images/post-1/banner.png');">
+    <div class="bg-black-30">
+      <nav class="pv2 ph3 ph4-l sticky-header main-navigation">
+  <div class="flex justify-between items-center center">
+    <div class="flex items-center f5 f4-l fw4 pl4-l white">
+    <a href="/">
+      
+        <img src="/img/scalhive_logo.png" class="w100 mw3-l v-mid site-logo" alt="ScalHive DEV" >
+      
+    </a>
+      <a href="/" class="f3-l f0-m f0-ns fw2 pl3 hover-white no-underline white-90 text-bold">
+        ScalHive DEV
+      </a>
+    </div>
+
+
+    <div class="flex flex-row-reverse-ns items-center">
+      
+      <ul class="pl0 mr3">
+
+        
+        
+
+        
+        <li class="list f5 f4-l fw4 dib pl4-l pl2 pr3">
+          <a class="hover-white no-underline white-90" href="/about/">
+            
+            <span>About us</span>
+            <span></span>
+          </a>
+        </li>
+        
+        
+
+        
+        <li class="list f5 f4-l fw4 dib pl4-l pl2 pr3">
+          <a class="hover-white no-underline white-90" href="/blog/">
+            
+            <span>Blog</span>
+            <span></span>
+          </a>
+        </li>
+        
+        
+
+        
+        <li class="list f5 f4-l fw4 dib pl4-l pl2 pr3">
+          <a class="hover-white no-underline white-90" href="/services/">
+            
+            <span>Services</span>
+            <span></span>
+          </a>
+        </li>
+        
+        
+
+        
+        <li class="list f5 f4-l fw4 dib pl4-l pl2 pr3">
+          <a class="hover-white no-underline white-90" href="/contacts/">
+            
+            <span>Contacts</span>
+            <span></span>
+          </a>
+        </li>
+        
+        
+      </ul>
+      
+      
+
+    </div>
+
+    
+  </div>
+</nav>
+
+        
+        <div class="tc p-banner-lg ph3 ph4-ns w-70 w-100-ns center">
+          <h1 class="f2 f1-l f3-ns white-90 lh-title">Trunk Based Development: Introduction</h1>
+          
+        </div>
+        
+    </div>
+  </header>
+
+</div>
+
+
+<div id="menu-mobile">
+  <nav class="topnav">
+
+  <div class="flex justify-between items-center center pv2 ph3 bg-white">
+    <div class="flex f5 f4-l fw4 pl4-l dark-gray">
+      <a href="/">
+        
+          
+          <img src="/img/scalhive_logo.png" class="w100 mw3-l v-mid site-logo" alt="ScalHive DEV" >
+          
+        
+      </a>
+      <a href="/" class="f3-l f0-m f0-ns fw2 pl3 hover-white no-underline white-90 text-bold">
+        ScalHive DEV
+      </a>
+    </div>
+    <div class="flex items-center">
+      
+
+
+      
+      <div class="mr2-ns v-mid">
+        <a href="javascript:void(0);" class="" id="site-icon-open" onclick="toggleFunction()">
+          <svg class="v-mid" viewBox="0 0 16 16" aria-hidden="true" width="2em" height="2em">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </a>
+        <a href="javascript:void(0);" class="" id="site-icon-close" onclick="toggleFunction()">
+          <svg class="v-mid" viewBox="0 0 16 16" aria-hidden="true" width="2em" height="2em">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="myLinks" class="tc bg-white">
+    <ul id="menu-mobile-list">
+      
+      <li class="list f5 fw4 parent-menu-line bb b--black-10">
+      
+      
+      
+        <li class="list f5 fw4 parent-menu-line bb b--black-10">
+          <a class="hover-black no-underline pa2 fw6" href="/about/" style="color:#555555;">
+          
+          <span>About us</span>
+          <span></span>
+          </a>
+        </li>
+      
+      
+      
+        <li class="list f5 fw4 parent-menu-line bb b--black-10">
+          <a class="hover-black no-underline pa2 fw6" href="/blog/" style="color:#555555;">
+          
+          <span>Blog</span>
+          <span></span>
+          </a>
+        </li>
+      
+      
+      
+        <li class="list f5 fw4 parent-menu-line bb b--black-10">
+          <a class="hover-black no-underline pa2 fw6" href="/services/" style="color:#555555;">
+          
+          <span>Services</span>
+          <span></span>
+          </a>
+        </li>
+      
+      
+      
+        <li class="list f5 fw4 parent-menu-line bb b--black-10">
+          <a class="hover-black no-underline pa2 fw6" href="/contacts/" style="color:#555555;">
+          
+          <span>Contacts</span>
+          <span></span>
+          </a>
+        </li>
+      
+      
+    </ul>
+  </div>
+  
+
+</nav>
+
+  <div class="sticky-header" id="small-menu">
+    <div class="flex justify-between items-center center pv2 ph3 bg-white shadow-4">
+      <div class="flex f5 f4-l fw4 pl4-l white">
+        <a href="/">
+          
+          
+          <img src="/img/scalhive_logo.png" class="w100 mw3-l v-mid site-logo" alt="ScalHive DEV" >
+          
+          
+        </a>
+        <a href="/" class="f3-l f0-m f0-ns fw2 pl3 hover-white no-underline white-90 text-bold">
+          ScalHive DEV
+        </a>
+      </div>
+      <div class="flex items-center">
+        
+
+        <button class="mr2-ns v-mid" onclick="topFunction();toggleTopFunction()" >
+          <svg class="v-mid" viewBox="0 0 16 16" aria-hidden="true" width="2em" height="2em">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <header class="cover bg-right" style="background-image: url('http://localhost:1313/static-blog-images/post-1/banner.png');">
+    <div class="bg-black-30">
+      
+      <div class="tc p-banner-lg p-banner-lg-ns ph3 ph4-ns w-70 w-100-ns center">
+        <h1 class="f2 f1-l f3-ns white-90 lh-title">Trunk Based Development: Introduction</h1>
+        
+      </div>
+      
+    </div>
+  </header>
+  
+</div>
+
+        <main class="">
+          
+  
+
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph4-m post-content">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+
+      </aside>
+
+      <br>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-01-27T20:02:30+02:00">
+        2024-01-27</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-solid avenir f4-5-l f5-m nested-links dark-gray"><a href="https://trunkbaseddevelopment.com/" style="color:;" target="_self">Original article</a>
+<h2 id="hahahugoshortcode355s1hbhb">
+
+
+
+
+    
+
+
+<span style="color:;" >Introduction</span></h2>
+<p><strong>Trunk-Based Development</strong> is not a new branching model. The word ‘trunk’ is referent to the concept of a growing tree,
+where the fattest and longest span is the trunk, not the branches that radiate from it and are of more limited length.
+It has been a lesser known branching model of choice since the mid-nineties and considered tactically since the eighties.
+The largest of development organizations, like <em>Google</em> (as mentioned) and <em>Facebook practice it</em> at scale.
+Over 30 years different advances to source-control technologies and related tools/techniques
+have made Trunk-Based Development more (and occasionally less) prevalent,
+but it has been a branching model that many have stuck with through the years.</p>
+<h2 id="hahahugoshortcode355s2hbhb">
+
+
+
+
+    
+
+
+<span style="color:;" >Shared branches off mainline/main/trunk are bad at any release cadence: </span></h2>
+
+<figure>
+    <img
+        srcset="/blog-images/post-1/figure-1.png 712w,/blog-images/post-1/figure-1_hu770b250ca1e89e58a341033d44a022f2_23811_480x0_resize_box_3.png 480w"
+        sizes="(max-width: 480px) 100vw, 100vw"
+        src="/blog-images/post-1/figure-1.png"
+        alt=""class="img-scale-down">
+    <figcaption></figcaption>
+</figure>
+
+<h2 id="hahahugoshortcode355s4hbhb">
+
+
+
+
+    
+
+
+<span style="color:;" >Trunk-Based Development For Smaller Teams: </span></h2>
+
+<figure>
+    <img
+        srcset="/blog-images/post-1/figure-2.png 728w,/blog-images/post-1/figure-2_hu40cdd0375a5933b8b8db9d51d2fe579f_39910_480x0_resize_box_3.png 480w"
+        sizes="(max-width: 480px) 100vw, 100vw"
+        src="/blog-images/post-1/figure-2.png"
+        alt=""class="img-scale-down">
+    <figcaption></figcaption>
+</figure>
+
+<h2 id="hahahugoshortcode355s6hbhb">
+
+
+
+
+    
+
+
+<span style="color:;" >Scaled Trunk-Based Development: </span></h2>
+
+<figure>
+    <img
+        srcset="/blog-images/post-1/figure-3.png 726w,/blog-images/post-1/figure-3_huc323a9cc5d2c68e39a459981c162faa7_46438_480x0_resize_box_3.png 480w"
+        sizes="(max-width: 480px) 100vw, 100vw"
+        src="/blog-images/post-1/figure-3.png"
+        alt=""class="img-scale-down">
+    <figcaption></figcaption>
+</figure>
+
+<h2 id="hahahugoshortcode355s8hbhb">
+
+
+
+
+    
+
+
+<span style="color:;" >Elaboration, Claims and Caveats: </span></h2>
+
+<figure>
+    <img
+        srcset="/blog-images/post-1/figure-4.png 554w,/blog-images/post-1/figure-4_hu4fe86283c8e6100b94b6ebef3d04327c_7862_480x0_resize_box_3.png 480w"
+        sizes="(max-width: 480px) 100vw, 100vw"
+        src="/blog-images/post-1/figure-4.png"
+        alt=""class="img-scale-down">
+    <figcaption></figcaption>
+</figure>
+
+<p>Trunk-Based Development is a key enabler of
+<a href="https://trunkbaseddevelopment.com/continuous-integration/" style="color:;" target="_self">Continuous Integration</a>
+and by extension <a href="https://trunkbaseddevelopment.com/continuous-delivery/" style="color:;" target="_self">Continuous Delivery</a> .
+When individuals on a team are committing their changes to the trunk multiple times a day it becomes easy to satisfy the core requirement of Continuous Integration
+that all team members commit to trunk at least once every 24 hours.
+This ensures the codebase is always releasable on demand and helps to make Continuous Delivery a reality.</p>
+<p>The dividing line between small team Trunk-Based Development and scaled Trunk-Based Development is a subject to team size
+and commit rate consideration.
+The precise moment a dev team is no longer “small” and has transitioned to “scaled” is subject to practitioner debate.
+Regardless, teams perform a full “pre integrate” build (compile, unit tests, integration tests)
+on their dev workstations before committing/pushing for others (or bots) to see.</p>
+<p><strong>Claims</strong></p>
+<ul>
+<li>You should do Trunk-Based Development instead of GitFlow and other branching models that feature multiple long-running branches</li>
+<li>You can either do a direct to trunk commit/push (v small teams) or a Pull-Request workflow as long as those feature branches are short-lived and the product of a single person.</li>
+</ul>
+<p><strong>Caveats</strong></p>
+<ul>
+<li>Depending on the team size, and the rate of commits, <a href="https://trunkbaseddevelopment.com/short-lived-feature-branches/" style="color:;" target="_self">short-lived feature branches </a><br>
+are used for code-review and build checking (CI),
+but not artifact creation or publication, to happen before commits land in the trunk for other developers to depend on.
+Such branches allow developers to engage in <a href="https://trunkbaseddevelopment.com/continuous-review/" style="color:;" target="_self">eager and continuous code review</a>
+of contributions before their code is integrated into the trunk.
+Very small teams may <a href="https://trunkbaseddevelopment.com/committing-straight-to-the-trunk/" style="color:;" target="_self">commit direct to the trunk</a>.</li>
+<li>Depending on the intended release cadence, there may be <a href="/blog/post-2/" style="color:;" target="_self">release branches</a>
+that are cut from the trunk on a just-in-time basis, are ‘hardened’ before a release (without that being a team activity),
+and <strong>those branches are deleted</strong> some time after release.
+Alternatively, there may also be no release branches if the team is <a href="https://trunkbaseddevelopment.com/release-from-trunk/" style="color:;" target="_self">releasing from Trunk </a>,
+and choosing a “fix forward” strategy for bug fixes.
+Releasing from trunk is also for high-throughput teams, too.</li>
+<li>Teams should become adept with the related branch by abstraction technique for longer to achieve changes,
+and use feature flags in day to day development to allow for hedging on the order of releases
+(and other good things - see concurrent development of consecutive releases)</li>
+<li>If you have more than a couple of developers on the project,
+you are going to need to hook up a build server to verify that their commits have <strong>not broken the build</strong> after they land in the trunk,
+and also when they are ready to be merged back into the trunk from a short-lived feature branch.</li>
+<li>Development teams can casually flex up or down in size (in the trunk) without affecting throughput or quality.
+Proof? Google does Trunk-Based Development and have <strong>35000 developers and QA automators</strong> in that single monorepo trunk,
+that in their case can expand or contract to suit the developer in question.</li>
+<li>People who practice the GitHub-flow branching model will feel that this is quite similar,
+but there is one small difference around where to release from.</li>
+<li>People who practice the Gitflow branching model will find this very different,
+as will many developers used to the popular ClearCase, Subversion, Perforce, StarTeam, VCS branching models of the past.</li>
+<li>Many publications promote Trunk-Based Development as we describe it here.
+Those include the best-selling ‘Continuous Delivery’ and ‘DevOps Handbook’.
+This should not even be controversial anymore!</li>
+</ul>
+<h2 id="hahahugoshortcode355s17hbhb">
+
+
+
+
+    
+
+
+<span style="color:;" >One line summary </span></h2>
+<p>A source-control branching model, where developers collaborate on code in a single branch called ‘trunk’ *, resist any pressure to create other long-lived development branches by employing documented techniques. They therefore avoid merge hell, do not break the build, and live happily ever after.</p>
+<p>* <code>main</code> for the Git community since 2020 (<code>master</code> with unsavory connotations before)</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+
+
+
+  </article>
+
+
+<div class="tc pt4">
+    <a class="f6 link w-20 w-30-m w-50-ns dim br2 ph3 pv2 mb2 dib white"
+       style="background-color:#555555;" href="/contacts/">
+    Contact us
+    </a>
+</div>
+
+
+
+        </main>
+      </div>
+    <footer class="center" id="footer">
+
+    
+    <div class="pa4 ph3-ns w-70 w-80-ns center">
+        <div class="bb b--black-10"></div>
+    </div>
+
+    <div class="tc">
+        <div class="f5 f6-ns fw4 no-underline black-70 pb2 ph3">Berezhans&#39;ka St 10 </div>
+        <div class="f5 f6-ns fw4 no-underline black-70 pb2 ph3">46027, Ternopil, Ukraine</div>
+        <div class="f5 f6-ns fw4 no-underline black-70 pb2 ph3">&#43;38 068 670 2808</div>
+    </div>
+    <div class="flex justify-between">
+        <div class="center tc f6 f7-ns fw4 no-underline black-70 dn dib pv4 ph3 ph4-ns">
+            <a class="hover-black black-70" href="http://localhost:1313/"></a>
+            Copyright &copy;  ScalHive DEV, 2024
+            All rights reserved.
+        </div>
+        
+    </div>
+</footer>
+
+    </div>
+    <style>
+    #consent-notice {font-size: 0.8rem; padding: 1rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: 100%; background: #222; color: rgba(255,255,255,0.8);}
+    #consent-notice span {margin-right: 1rem;}
+    #consent-notice button {cursor: pointer; display: inline-block; width: auto;}
+    #consent-notice span a {color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.5);}
+    #consent-notice button.btn {font-size: 0.8rem; font-weight: normal; height: 1.83rem; color: rgba(255,255,255,0.8); padding: 0.35rem 0.7rem; border: 0; border-radius: 0.25rem; margin-left: 0.5rem;}
+    #consent-notice button.btn.manage-consent {background: rgba(255,255,255,0.1); }
+    #consent-notice button.btn.deny-consent {background: rgba(255,255,255,0.1); }
+    #consent-notice button.btn.approve-consent {background: var(--site-color); font-weight: bold; }
+
+    #consent-overlay {position: fixed; left: 0; top: 0; width: 100%; height: 100vh; display: none; background: rgba(0,0,0,0.75); z-index: 999999; overflow: auto; cursor: pointer;}
+    #consent-overlay.active {display: flex;}
+    #consent-overlay > div {background: white; width: 100%; max-width: 30rem; padding: 1.75rem; margin: auto; cursor: initial;}
+    #consent-overlay > div > div {display: flex; align-items: flex-start; margin-bottom: 1rem;}
+    #consent-overlay > div > div:last-child {margin: 0;}
+    #consent-overlay h3 {font-size: 1.1rem; font-weight: normal; color: #444444; padding-left: 0.25rem; padding-top: 0; margin-top: 0;}
+    #consent-overlay input {margin-top: 0.25rem; margin-right: 0.4rem;}
+    #consent-overlay label {}
+    #consent-overlay label {font-size: 0.8rem; font-weight: normal; color: #666666; display: block;}
+    #consent-overlay .btn { background: var(--site-color); color: rgba(255,255,255,0.8); font-size: 0.8rem; height: 1.83rem; font-weight: bold; margin-right: 0.5rem; border: 0; cursor: pointer; border-radius: 0.25rem; width: calc(100% - 1.24rem);}
+    #consent-overlay button.btn.save-consent {background: rgba(0,0,0,0.6); font-weight: normal;}
+
+    @media (max-width: 767px) {
+        #consent-overlay > div {padding: 1.75rem 1rem;}
+        #consent-notice span {display: block; padding-top: 3px; margin-bottom: 1.5rem;}
+        #consent-notice button.btn {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="consent-notice">
+    <span>We would like to use <a class="manage-consent" href="#manage-consent">third party code</a> to improve the functionality of this website.</span>
+    <button class="btn manage-consent">Manage preferences</button>
+    <button class="btn deny-consent">Deny</button>
+    <button class="btn approve-consent">Allow</button>
+</div>
+<div id="consent-overlay">
+    <div>
+        
+        <div>
+            <input type="checkbox" id="item0" value="1" name="item0"
+                    checked 
+                   
+            >
+            <label for="item0">
+                <h3>Google Analytics</h3>
+                <p>This code gives us insight into the number of people that visit our website, where they are from and what they are clicking on.</p>
+                
+                Details:
+                <a class="hover-black black-70" href="/about/privacy/#cookies" target="_blank">
+                    Privacy statement
+                </a>
+                
+            </label>
+        </div>
+        
+        <div>
+            <button id="save-consent" class="btn save-consent" data-consentvalue="0">Save preferences</button>
+            <button class="btn approve-consent">Allow all</button>
+        </div>
+    </div>
+</div>
+<script>
+
+    const scripts = [];
+    scripts[ 0 ] = "/js/ga.js";
+
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+    function denyAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "0";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "1";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptSomeConsentScripts(consentValue) {
+        setConsentInputs(consentValue);
+        createCookie('consent-settings',consentValue,31);
+        document.getElementById('consent-notice').style.display = 'none';
+        document.getElementById('consent-overlay').classList.remove('active');
+        loadConsentScripts(consentValue);
+    }
+    function loadConsentScripts(consentValue) {
+        scripts.forEach(function(value,key){
+            
+            if(consentValue[key]=="1") {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.src = value;
+                document.body.appendChild(s);
+            }
+        });
+    }
+    function setConsentInputs(consentValue) {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        elements.forEach(function(el,index) {
+            if(consentValue[index]=="1") el.checked = true;
+            else el.checked = false;
+        });
+    }
+    function setConsentValue() {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        var consentValue = "";
+        elements.forEach(function(el) {
+            if(el.checked) consentValue = consentValue + "1";
+            else consentValue = consentValue + "0";
+        });
+        document.getElementById("save-consent").dataset.consentvalue = consentValue;
+    }
+
+    if(readCookie('consent-settings')) {
+        var consentValue = readCookie('consent-settings').toString();
+        
+        setConsentInputs(consentValue);
+        loadConsentScripts(consentValue);
+    } else {
+        document.getElementById('consent-notice').style.display = 'block';
+    }
+    var elements = document.querySelectorAll('.manage-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            document.getElementById('consent-overlay').classList.toggle('active');
+        });
+    });
+    var elements = document.querySelectorAll('.deny-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            denyAllConsentScripts();
+        });
+    });
+    var elements = document.querySelectorAll('.approve-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            acceptAllConsentScripts();
+        });
+    });
+    document.getElementById("save-consent").addEventListener("click",function() {
+        setConsentValue();
+        acceptSomeConsentScripts(this.dataset.consentvalue);
+    });
+    document.getElementById("consent-overlay").addEventListener("click",function(e) {
+        if (!document.querySelector("#consent-overlay > div").contains(e.target)){
+            this.classList.toggle('active');
+        }
+    });
+</script>
+
+
+
+
+  </body>
+</html>

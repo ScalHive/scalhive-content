@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Page-Services on ScalHive DEV</title>
+    <link>http://localhost:1313/ua/page-services/</link>
+    <description>Recent content in Page-Services on ScalHive DEV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <atom:link href="http://localhost:1313/ua/page-services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Розподілені системи</title>
+      <link>http://localhost:1313/ua/page-services/section-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-services/section-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Аналіз великих даних</title>
+      <link>http://localhost:1313/ua/page-services/section-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-services/section-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Аналіз та управління даними</title>
+      <link>http://localhost:1313/ua/page-services/section-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-services/section-3/</guid>
+      <description>Data Science Data Engineering Storage </description>
+    </item>
+    <item>
+      <title>Бізнес-аналітика</title>
+      <link>http://localhost:1313/ua/page-services/section-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-services/section-4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Розробка програмних застосунків</title>
+      <link>http://localhost:1313/ua/page-services/section-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ua/page-services/section-5/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
