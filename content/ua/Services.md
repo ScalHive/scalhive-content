@@ -6,7 +6,9 @@ menu:
     identifier: services
     name: Види діяльності
     weight: 2
+text_color: '#454545'
 final_message: Почніть користуватись найкращим вже тепер!
+final_message_color: ""
 layout: img-right
 sections_folder: page-services
 ---
