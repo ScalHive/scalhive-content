@@ -6,8 +6,9 @@ menu:
     identifier: services
     name: Services
     weight: 3
-
+text_color: '#454545'
 final_message: Start using the best professional services today
+final_message_color: ""
 layout: img-right
 sections_folder: page-services
 ---
