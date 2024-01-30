@@ -34,7 +34,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     environment:
-      name: ${{ (github.ref != 'refs/heads/main' || github.event.pull_request.base.ref != 'dev') && 'development' }}
+      name: ${{ (github.ref != 'refs/heads/main' || github.event.pull_request.base.ref != 'main') && 'development' }}
     env:
       HUGO_VERSION: 0.111.3
     steps:
@@ -60,7 +60,7 @@ jobs:
           HUGO_ENV: production
           DEV_BASE_URL: ${{ vars.DEV_BASE_URL }}
         run: |
-          if [ "${{ github.event.pull_request.base.ref }}" == "dev" ] || [ "${{ github.ref }}" == "refs/heads/main" ]; then
+          if [ "${{ github.event.pull_request.base.ref }}" == "main" ] || [ "${{ github.ref }}" == "refs/heads/main" ]; then
             hugo \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
