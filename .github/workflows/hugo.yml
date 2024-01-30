@@ -34,7 +34,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     environment:
-      name: DEV
+      name: ${{ (github.ref != 'refs/heads/main' && github.event.pull_request.base.ref != 'main')  && 'development' }}
     env:
       HUGO_VERSION: 0.111.3
     steps:
@@ -64,6 +64,7 @@ jobs:
             hugo \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
+            echo "baseURL - ${{ steps.pages.outputs.base_url }}"
             echo "Site in production environment was built"
           else
             hugo \
@@ -89,7 +90,7 @@ jobs:
   # DEV Deployment job
   deploy-to-DEV:
     environment:
-      name: deployment
+      name: development
       url: ${{ vars.DEV_BASE_URL }}
     runs-on: ubuntu-latest
     needs: build
@@ -110,7 +111,7 @@ jobs:
   # GitHub Pages Deployment job
   deploy-to-gh-pages:
     environment:
-      name: deployment
+      name: production
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
