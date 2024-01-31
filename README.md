@@ -200,3 +200,22 @@ Images could be stored in two places: `/static/` or `/assets/` folders.
 - use `/static/` folder for background images specified in CSS code `{ background: url(""); }` 
 (banner and header images) and for images which will be used for sharing but not presented on the site anywhere
 (such images won't be rendered by build).
+
+## Tagging policy
+
+Versions in the "v0.1.2" format are marked with tags, where:
+- the first number - displays the main version;
+- the second number - displays a large feature (for example, adding a new page for the site);
+- the third number - displays hotfix.
+
+The latest commit after the pull request is tagged with the new version.
+Depending on the issue, either the second number (a large feature was added) or the 
+third number (a hotfix was made) changes.
+
+## Update theme policy
+
+To update the version of the `scalhive-theme submodule`, a corresponding issue must be created (which can be added as 
+a task in a larger issue). This issue must have the label `update`. 
+
+The main task of this specific issue is to change the version of the scalhive-theme submodule to a new one in file 
+`/go.mod`. Changes may also be added to configuration/content files to apply new changes of scalhive-theme module.
