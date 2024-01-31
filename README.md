@@ -75,9 +75,14 @@ hugo version
 
 ## Deploy
 Website is deploying automatically using `GitHub Actions` and two GitHub environments: 
-- `DEV` for build job. Contains necessary environment variable `DEV_BASE_URL`.
-- `deployment` for deploy job. Contains necessary secrets `FTP_SERVER`, `FTP_USERNAME` and `FTP_PASSWORD`.
-There are two versions of website - `development` and `main` (aka production).
+- `development` for build site in `DEV` hugo environment and deploy it into development hosting. Contains necessary 
+environment variable `DEV_BASE_URL` and secrets to connect with FTP-server - `FTP_SERVER`, `FTP_USERNAME` and `FTP_PASSWORD`.
+- `production` for deploy into GitHub Pages job.
+
+There are two versions of website - `development` and `production`.
+- Development version of site deploys into url, that defined in `DEV_BASE_URL` variable.
+- Production version of site deploys into GitHub Pages on url https://fantastic-engine-z4g5o6k.pages.github.io/ 
+(Generated automatically by GitHub)
 
 Website from `main` branch GitHub Actions builds using Hugo with `production` environment (HUGO_ENV=production)
 and deploys this website into GitHub Pages.
@@ -200,3 +205,33 @@ Images could be stored in two places: `/static/` or `/assets/` folders.
 - use `/static/` folder for background images specified in CSS code `{ background: url(""); }` 
 (banner and header images) and for images which will be used for sharing but not presented on the site anywhere
 (such images won't be rendered by build).
+
+## Tagging policy
+
+Versions in the "v0.1.2" format are marked with tags, where:
+- the first number - displays the main version;
+- the second number - displays a large feature (for example, adding a new page for the site);
+- the third number - displays hotfix.
+
+The latest commit after the pull request is tagged with the new version.
+Depending on the issue, either the second number (a large feature was added) or the 
+third number (a hotfix was made) changes.
+
+## Release policy
+
+Before creating a release, a milestone with the name of the corresponding `future version` is created. This milestone
+include issues that need to be completed to create a new version.
+
+After the milestone is completed, a new pull request is created to complete the `merge` operation
+from `dev` branch to `main` branch. The merge commit that will be created is tagged with the new version.
+
+Based on this new milestone version, a release titled `scalhive-content <tag>` has been created,
+where `<tag>` is the tag corresponding to the completed milestone version. Also, this release is marked as `latest`.
+
+## Update theme policy
+
+To update the version of the `scalhive-theme submodule`, a corresponding issue must be created (which can be added as 
+a task in a larger issue). This issue must have the label `update`. 
+
+The main task of this specific issue is to change the version of the scalhive-theme submodule to a new one in file 
+`/go.mod`. Changes may also be added to configuration/content files to apply new changes of scalhive-theme module.
