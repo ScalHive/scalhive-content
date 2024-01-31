@@ -217,6 +217,17 @@ The latest commit after the pull request is tagged with the new version.
 Depending on the issue, either the second number (a large feature was added) or the 
 third number (a hotfix was made) changes.
 
+## Release policy
+
+Before creating a release, a milestone with the name of the corresponding `future version` is created. This milestone
+include issues that need to be completed to create a new version.
+
+After the milestone is completed, a new pull request is created to complete the `merge` operation
+from `dev` branch to `main` branch. The merge commit that will be created is tagged with the new version.
+
+Based on this new milestone version, a release titled `scalhive-content <tag>` has been created,
+where `<tag>` is the tag corresponding to the completed milestone version. Also, this release is marked as `latest`.
+
 ## Update theme policy
 
 To update the version of the `scalhive-theme submodule`, a corresponding issue must be created (which can be added as 
