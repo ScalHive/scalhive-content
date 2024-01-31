@@ -75,9 +75,14 @@ hugo version
 
 ## Deploy
 Website is deploying automatically using `GitHub Actions` and two GitHub environments: 
-- `DEV` for build job. Contains necessary environment variable `DEV_BASE_URL`.
-- `deployment` for deploy job. Contains necessary secrets `FTP_SERVER`, `FTP_USERNAME` and `FTP_PASSWORD`.
-There are two versions of website - `development` and `main` (aka production).
+- `development` for build site in `DEV` hugo environment and deploy it into development hosting. Contains necessary 
+environment variable `DEV_BASE_URL` and secrets to connect with FTP-server - `FTP_SERVER`, `FTP_USERNAME` and `FTP_PASSWORD`.
+- `production` for deploy into GitHub Pages job.
+
+There are two versions of website - `development` and `production`.
+- Development version of site deploys into url, that defined in `DEV_BASE_URL` variable.
+- Production version of site deploys into GitHub Pages on url https://fantastic-engine-z4g5o6k.pages.github.io/ 
+(Generated automatically by GitHub)
 
 Website from `main` branch GitHub Actions builds using Hugo with `production` environment (HUGO_ENV=production)
 and deploys this website into GitHub Pages.
