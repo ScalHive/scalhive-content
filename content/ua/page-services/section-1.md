@@ -1,6 +1,6 @@
 ---
 title: "Інженери Платформ Даних: Каталізатори Організаційного Зростання"
-section_image: "/content-images/services_img_en1.png"
+section_image: "/content-images/services_img_1.png"
 img_render_class: 'obj-fit-cover border-radius'
 weight: 1
 ---

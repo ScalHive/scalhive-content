@@ -1,6 +1,6 @@
 ---
 title: "Pipeline-Focused Data Engineers: Masters of Data Flow"
-section_image: "/content-images/services_img_en2.png"
+section_image: "/content-images/services_img_2.png"
 img_render_class: 'obj-fit-cover border-radius'
 weight: 2
 ---
