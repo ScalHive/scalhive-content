@@ -1,12 +1,10 @@
 ---
-title: "Trank Based Development: Branch for release"
+title: "Trunk-Based Development: Branch for release"
 date: 2024-01-28T10:02:57+02:00
 type: article
 featured_image: '/static-blog-images/post-2/banner.png'
 keywords: ['development', 'VCS', 'work']
 ---
-{{< color-link link_title="Original article" path="https://trunkbaseddevelopment.com/branch-for-release/" >}}
-
         Branch: only when necessary, on incompatible policy, late, and instead of freeze
 ###### Laura Wingerd & Christopher Seiwald (1998’s High-Level SCM Best Practices white paper from Perforce)
 
@@ -83,7 +81,5 @@ This is a harmless tidying activity - branches can be undeleted again easily eno
 In git, a tag needs to be created from the released commit before deleting the release branch, 
 since dangling commits will be garbage collected.
 
-
-
-
-
+### {{< color-text text="Original article: " >}}
+* https://trunkbaseddevelopment.com/branch-for-release/

@@ -5,8 +5,6 @@ type: article
 featured_image: '/static-blog-images/post-1/banner.png'
 keywords: ['development', 'VCS', 'work']
 ---
-{{< color-link link_title="Original article" path="https://trunkbaseddevelopment.com/" >}}
-
 ## {{< color-text text="Introduction" >}}
    **Trunk-Based Development** is not a new branching model. The word ‘trunk’ is referent to the concept of a growing tree,
 where the fattest and longest span is the trunk, not the branches that radiate from it and are of more limited length.
@@ -80,9 +78,5 @@ on their dev workstations before committing/pushing for others (or bots) to see.
 
 A source-control branching model, where developers collaborate on code in a single branch called ‘trunk’ *, resist any pressure to create other long-lived development branches by employing documented techniques. They therefore avoid merge hell, do not break the build, and live happily ever after.
 
-\* `main` for the Git community since 2020 (`master` with unsavory connotations before)
-
-
-
-
-
+### {{< color-text text="Original article: " >}}
+* https://trunkbaseddevelopment.com/
