@@ -1,6 +1,6 @@
 baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
-title = 'ScalHive DEV'
+title = 'ScalHive'
 theme = ["github.com/TNTU-RS-internship/scalhive-theme"]
 
 DefaultContentLanguage = "en"
@@ -50,11 +50,10 @@ DefaultContentLanguage = "en"
     url = "https://github.com/ScalHive"
     label = "GitHub"
 
-
 [params]
 favicon = '/img/scalhive_logo.ico'
-siteLogo = '/img/scalhive_logo.png'
-siteLogoMobile = '/img/scalhive_logo.png'
+siteLogo = '/img/desktop_logo.png'
+siteLogoMobile = '/img/mobile_logo.png'
 mobileMenuLight = true
 header_image_line = '/img/try_small.webp'
 background_color_class = "bg-mid-gray" # header and footer default background color. Choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
@@ -63,5 +62,5 @@ body_classes = "avenir bg-white" # font and body background color
 recent_posts_number = 3 # for index page
 date_format = '2006-01-02'
 post_content_classes = "avenir"
-
+showTitleNearLogo = false
 
