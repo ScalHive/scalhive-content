@@ -11,24 +11,27 @@ DefaultContentLanguage = "en"
   contentDir = "content/en"
   [languages.en.params]
     footerContactButton = "Contact us"
+    toMainPageButton ="Home Page"
     footer_contact_button_color = "#fde74c"
     footer_contact_button_text_color = "#2F2F2F"
     footerContactButtonPath = '/contacts/'
+    toMainPageButtonPath = '/'
     customFooterLine1 = "Berezhans'ka St 10 "
     customFooterLine2 = '46027, Ternopil, Ukraine'
-    customFooterLine3 = '+38 068 670 2808'
  [languages.ua]
   languageCode = 'uk'
   weight = 2
   contentDir = "content/ua"
   [languages.ua.params]
     footerContactButton = "Зв'яжіться з нами"
+    toMainPageButton ="На головну"
     footer_contact_button_color = "#fde74c"
     footer_contact_button_text_color = "#2F2F2F"
     footerContactButtonPath = '/ua/contacts/'
+    toMainPageButtonPath = '/ua/'
     customFooterLine1 = 'вул. Бережанська 10'
     customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
-    customFooterLine3 = '+38 068 670 2808'
+
 
     [[params.ananke_socials]]
     name = "email"
@@ -63,4 +66,5 @@ recent_posts_number = 3 # for index page
 date_format = '2006-01-02'
 post_content_classes = "avenir"
 showTitleNearLogo = false
-
+locationURL = "https://www.google.com/maps/dir//ScalHive/data=!4m8!4m7!1m0!1m5!1m1!1s0x473036d083560197:0xf041c38c1d785ec0!2m2!1d25.5614392!2d49.5510033"
+customFooterLine3 = '+38 068 670 2808'
