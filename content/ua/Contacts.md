@@ -14,8 +14,7 @@ form_folder: contacts-form
 submit_button: "Відправити"
 action: "https://docs.google.com/forms/d/e/1FAIpQLSdJNvbnLgqbiqlGbSJYdhe6gKUHQy2QotiD7aJABhYmIvZWFw/formResponse"
 response_page: '/thank-you'
-section_image: '/content-images/contact_img.jpg'
-img_render_class: 'obj-fit-cover border-radius'
+section_image: '/content-images/contact_img.png'
 ---
 
 ### ScalHive
