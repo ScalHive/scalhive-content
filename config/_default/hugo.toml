@@ -18,6 +18,7 @@ DefaultContentLanguage = "en"
     toMainPageButtonPath = '/'
     customFooterLine1 = "Berezhans'ka St 10 "
     customFooterLine2 = '46027, Ternopil, Ukraine'
+    customFooterLine3 = '+38 068 670 2808'
  [languages.ua]
   languageCode = 'uk'
   weight = 2
@@ -31,32 +32,15 @@ DefaultContentLanguage = "en"
     toMainPageButtonPath = '/ua/'
     customFooterLine1 = 'вул. Бережанська 10'
     customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
-
-
-    [[params.ananke_socials]]
-    name = "email"
-    url = "mailto:team@scalhive.com"
-    label = "Email"
-
-    [[params.ananke_socials]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/company/scalhive/"
-    label = "Linkedin"
-
-    [[params.ananke_socials]]
-    name = "facebook"
-    url = "https://www.facebook.com/scalhive/"
-    label = "Facebook"
-
-    [[params.ananke_socials]]
-    name = "github"
-    url = "https://github.com/ScalHive"
-    label = "GitHub"
+    customFooterLine3 = '+38 068 670 2808'
 
 [params]
 favicon = '/img/scalhive_logo.ico'
 siteLogo = '/img/desktop_logo.png'
 siteLogoMobile = '/img/mobile_logo.png'
+showTitleNearLogo = false
+header_background_image = '/img/background_ph.webp'
+
 mobileMenuLight = true
 header_image_line = '/img/try_small.webp'
 background_color_class = "bg-mid-gray" # header and footer default background color. Choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
@@ -65,6 +49,30 @@ body_classes = "avenir bg-white" # font and body background color
 recent_posts_number = 3 # for index page
 date_format = '2006-01-02'
 post_content_classes = "avenir"
+footer_contact_button_color = "#fde74c"
+footer_contact_button_text_color = "#2F2F2F"
+site_color = '#fde74c' #brand color for buttons
+
+
+[[params.ananke_socials]]
+name = "email"
+url = "mailto:team@scalhive.com"
+label = "Email"
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/company/scalhive/"
+label = "Linkedin"
+
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/scalhive/"
+label = "Facebook"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/ScalHive"
+label = "GitHub"
 showTitleNearLogo = false
 locationURL = "https://www.google.com/maps/dir//ScalHive/data=!4m8!4m7!1m0!1m5!1m1!1s0x473036d083560197:0xf041c38c1d785ec0!2m2!1d25.5614392!2d49.5510033"
-customFooterLine3 = '+38 068 670 2808'
+
