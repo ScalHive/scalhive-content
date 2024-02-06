@@ -52,7 +52,7 @@ post_content_classes = "avenir"
 footer_contact_button_color = "#fde74c"
 footer_contact_button_text_color = "#2F2F2F"
 site_color = '#fde74c' #brand color for buttons
-
+locationURL = "https://www.google.com/maps/dir//ScalHive/data=!4m8!4m7!1m0!1m5!1m1!1s0x473036d083560197:0xf041c38c1d785ec0!2m2!1d25.5614392!2d49.5510033"
 
 [[params.ananke_socials]]
 name = "email"
@@ -74,5 +74,4 @@ name = "github"
 url = "https://github.com/ScalHive"
 label = "GitHub"
 showTitleNearLogo = false
-locationURL = "https://www.google.com/maps/dir//ScalHive/data=!4m8!4m7!1m0!1m5!1m1!1s0x473036d083560197:0xf041c38c1d785ec0!2m2!1d25.5614392!2d49.5510033"
 
