@@ -8,7 +8,6 @@ menu:
     identifier: about
     name: About us
     weight: 1
-
 layout: img-left-plus-right
 sections_folder_left: page-about-us
 ---
