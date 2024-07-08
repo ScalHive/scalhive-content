@@ -1,7 +1,8 @@
 baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'ScalHive'
-theme = ["github.com/TNTU-RS-internship/scalhive-theme"]
+#theme = ["github.com/TNTU-RS-internship/scalhive-theme"]
+theme = ["scalhive-theme"]
 
 DefaultContentLanguage = "en"
 [languages]
@@ -19,6 +20,7 @@ DefaultContentLanguage = "en"
     customFooterLine1 = "Berezhans'ka St 10 "
     customFooterLine2 = '46027, Ternopil, Ukraine'
     customFooterLine3 = '+38 068 670 2808'
+    read_more_button = 'Read more'
  [languages.ua]
   languageCode = 'uk'
   weight = 2
@@ -33,6 +35,7 @@ DefaultContentLanguage = "en"
     customFooterLine1 = 'вул. Бережанська 10'
     customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
     customFooterLine3 = '+38 068 670 2808'
+    read_more_button = 'Більше'
 
 [params]
 favicon = '/img/scalhive_logo.ico'
@@ -40,6 +43,7 @@ siteLogo = '/img/desktop_logo.png'
 siteLogoMobile = '/img/mobile_logo.png'
 showTitleNearLogo = false
 header_background_image = '/img/background_ph.webp'
+
 
 mobileMenuLight = true
 header_image_line = '/img/try_small.webp'
