@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'ScalHive'
 theme = ["github.com/TNTU-RS-internship/scalhive-theme"]
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ua"
 [languages]
  [languages.en]
   languageCode = 'en'
