@@ -7,7 +7,7 @@ menu:
   main:
     identifier: privacy
     parent: about
-    name: Privacy
+    name: Конфіденційність
     weight: 2
 final_message: "При будь-яких запитаннях"
 layout: privacy
