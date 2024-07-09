@@ -19,6 +19,13 @@ DefaultContentLanguage = "en"
     customFooterLine1 = "Berezhans'ka St 10 "
     customFooterLine2 = '46027, Ternopil, Ukraine'
     customFooterLine3 = '+38 068 670 2808'
+    read_more_button = 'Read more'
+    consent_manage = 'Manage preferences'
+    consent_deny = 'Deny'
+    consent_allow = 'Allow'
+    consent_outer_message_1 = 'We would like to use '
+    consent_outer_message_2 = ' to improve the functionality of this website.'
+    consent_inner_message = 'third party code'
  [languages.ua]
   languageCode = 'uk'
   weight = 2
@@ -33,6 +40,13 @@ DefaultContentLanguage = "en"
     customFooterLine1 = 'вул. Бережанська 10'
     customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
     customFooterLine3 = '+38 068 670 2808'
+    read_more_button = 'Більше'
+    consent_manage = 'Керувати налаштуваннями'
+    consent_deny = 'Відмовити'
+    consent_allow = 'Дозволити'
+    consent_outer_message_1 = 'Ми хотіли б використовувати '
+    consent_outer_message_2 = ' для покращення функціональності даного вебсайту.'
+    consent_inner_message = 'сторонній код'
 
 [params]
 favicon = '/img/scalhive_logo.ico'
@@ -74,4 +88,3 @@ name = "github"
 url = "https://github.com/ScalHive"
 label = "GitHub"
 showTitleNearLogo = false
-
