@@ -2,7 +2,6 @@ baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'ScalHive'
 theme = ["github.com/TNTU-RS-internship/scalhive-theme"]
-#theme = ["scalhive-theme"]
 
 DefaultContentLanguage = "en"
 [languages]
@@ -44,7 +43,6 @@ siteLogoMobile = '/img/mobile_logo.png'
 showTitleNearLogo = false
 header_background_image = '/img/background_ph.webp'
 
-
 mobileMenuLight = true
 header_image_line = '/img/try_small.webp'
 background_color_class = "bg-mid-gray" # header and footer default background color. Choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
@@ -78,4 +76,3 @@ name = "github"
 url = "https://github.com/ScalHive"
 label = "GitHub"
 showTitleNearLogo = false
-
