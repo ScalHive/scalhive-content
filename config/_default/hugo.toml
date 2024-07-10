@@ -26,6 +26,12 @@ DefaultContentLanguage = "en"
     consent_outer_message_1 = 'We would like to use '
     consent_outer_message_2 = ' to improve the functionality of this website.'
     consent_inner_message = 'third party code'
+    consent_description = 'This code gives us insight into the number of people that visit our website, where they are from and what they are clicking on.'
+    consent_details_link_name = 'Privacy statement'
+    consent_details_link = '/about/privacy/#cookies'
+    consent_details = 'Details'
+    consent_allow_all = 'Allow all'
+    consent_save_preferences = 'Save preferences'
  [languages.ua]
   languageCode = 'uk'
   weight = 2
@@ -47,7 +53,12 @@ DefaultContentLanguage = "en"
     consent_outer_message_1 = 'Ми хотіли б використовувати '
     consent_outer_message_2 = ' для покращення функціональності даного вебсайту.'
     consent_inner_message = 'сторонній код'
-
+    consent_description = 'Цей код дає нам уявлення про кількість людей, які відвідують наш веб-сайт, звідки вони та що вони натискають.'
+    consent_details_link_name = 'Політика конфіденційності'
+    consent_details_link = '/ua/about/privacy/#cookies'
+    consent_details = 'Детальніше'
+    consent_allow_all = 'Дозволити всі'
+    consent_save_preferences = 'Зберегти обрані'
 [params]
 favicon = '/img/scalhive_logo.ico'
 siteLogo = '/img/desktop_logo.png'
