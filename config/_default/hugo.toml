@@ -19,6 +19,7 @@ DefaultContentLanguage = "ua"
     customFooterLine1 = "Berezhans'ka St 10 "
     customFooterLine2 = '46027, Ternopil, Ukraine'
     customFooterLine3 = '+38 068 670 2808'
+    customFooterLine4 = 'Email: team at scalhive.com'
     read_more_button = 'Read more'
     consent_manage = 'Manage preferences'
     consent_deny = 'Deny'
@@ -46,6 +47,7 @@ DefaultContentLanguage = "ua"
     customFooterLine1 = 'вул. Бережанська 10'
     customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
     customFooterLine3 = '+38 068 670 2808'
+    customFooterLine4 = 'Email: team at scalhive.com'
     read_more_button = 'Більше'
     consent_manage = 'Керувати налаштуваннями'
     consent_deny = 'Відмовити'
@@ -88,9 +90,9 @@ googleAnalytics = "G-PK47LMB0RZ"
   useSessionStorage = false
 
 [[params.ananke_socials]]
-name = "email"
-url = "mailto:team@scalhive.com"
-label = "Email"
+name = "dockerhub"
+url = "https://hub.docker.com/u/scalhive"
+label = "DockerHub"
 
 [[params.ananke_socials]]
 name = "linkedin"
