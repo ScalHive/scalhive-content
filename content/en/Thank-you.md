@@ -5,4 +5,4 @@ omit_header_text: true
 layout: content-center
 ---
 
-Thank you for message!
+Thank you for your feedback!
