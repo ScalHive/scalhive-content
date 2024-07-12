@@ -104,7 +104,7 @@ at point of collection (or as obvious from the context of the collection). Typic
 Unless we are asked not to, we may also use your data to contact you with information about ScalHive’s business,
 services and events, and other information which may be of interest to you. Should visitors subsequently choose to
 unsubscribe from mailing lists or any registrations, we will provide instructions on the appropriate webpage, in our
-communication to the individual, or the individual may contact us by email to team@scalhive.com.
+communication to the individual, or the individual may contact us by email to **team at scalhive.com**.
 
 Our websites do not collect or compile personal data for the dissemination or sale to outside parties for consumer
 marketing purposes or host mailings on behalf of third parties. If there is an instance where such information may be
@@ -194,7 +194,7 @@ If you have any questions about this privacy statement or how and why we process
 
 10 Berezhans'ka St, office 82   
 46027, Ternopil, Ukraine  
-Email: team@scalhive.com  
+Email: **team at scalhive.com**  
 Phone: +38 068 699 3913
 
 ### Individuals’ rights and how to exercise them
@@ -206,11 +206,11 @@ information about the rights that individuals have and how to exercise them belo
 ### Access to personal data
 
 You have a right of access to personal data held by us as a data controller.  This right may be exercised by emailing
-us at team@scalhive.com.
+us at **team at scalhive.com**.
 
 ### Amendment of personal data
 
-To update personal data submitted to us, you may email us at team@scalhive.com or, where appropriate, contact
+To update personal data submitted to us, you may email us at **team at scalhive.com** or, where appropriate, contact
 us via the relevant website registration page or by amending the personal details held on relevant applications with
 which you registered.
 
@@ -221,7 +221,7 @@ make corrections (where appropriate) based on your updated information.
 
 Where we process personal data based on consent, individuals have a right to withdraw consent at any time.  We do not
 generally process personal data based on consent (as we can usually rely on another legal basis).  To withdraw consent
-to our processing of your personal data please email us at team@scalhive.com or, to stop receiving an email
+to our processing of your personal data please email us at **team at scalhive.com** or, to stop receiving an email
 from a ScalHive marketing list, please click on the unsubscribe link in the relevant email received from us.
 
 ### Right to restrict or object to our processing of personal data
@@ -239,10 +239,10 @@ is used.  As well as rights of access, amendment and restriction or objection to
 individuals may have other rights in relation to the personal data we hold, such as a right to erasure/deletion and
 the right to data portability.
 
-If you wish to exercise any of these rights, please send an email to team@scalhive.com.
+If you wish to exercise any of these rights, please send an email to **team at scalhive.com**.
 
 ### Complaints
 
 We hope that you won’t ever need to, but if you do want to complain about our use of personal data, please send
-an email with the details of your complaint to team@scalhive.com. We will look into and respond to any
+an email with the details of your complaint to **team at scalhive.com**. We will look into and respond to any
 complaints we receive.
