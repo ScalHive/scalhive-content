@@ -2,7 +2,7 @@
 title: ScalHive LLC
 url: '/ua'
 cascade:
-  featured_image: '/img/background_3.jpg'
+  featured_image: '/img/background_img.webp'
 
 layout: img-left-plus-right
 sections_folder_left: page-index-first

@@ -64,10 +64,10 @@ favicon = '/img/scalhive_logo.ico'
 siteLogo = '/img/desktop_logo.png'
 siteLogoMobile = '/img/mobile_logo.png'
 showTitleNearLogo = false
-header_background_image = '/img/background_ph.webp'
+header_background_image = '/img/background_img.webp'
 
 mobileMenuLight = true
-header_image_line = '/img/try_small.webp'
+header_image_line = '/img/small_background.webp'
 background_color_class = "bg-mid-gray" # header and footer default background color. Choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
 body_background_color = "#FEFEFA" #D9D9D9 e0ded5
 body_classes = "avenir bg-white" # font and body background color
