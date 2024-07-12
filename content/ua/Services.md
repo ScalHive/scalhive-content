@@ -1,10 +1,10 @@
 ---
-title: Види діяльності
+title: Послуги
 url: '/ua/services'
 menu:
   main:
     identifier: services
-    name: Види діяльності
+    name: Послуги
     weight: 2
 text_color: '#454545'
 final_message: Почніть користуватись найкращим вже тепер!

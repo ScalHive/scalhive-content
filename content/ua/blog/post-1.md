@@ -1,6 +1,6 @@
 ---
 title: "Розробка на основі стовбуру (Trunk): Вступ"
-date: 2024-01-29T21:00:00+02:00
+date: 2024-01-27T20:02:30+02:00
 type: article
 featured_image: '/static-blog-images/post-1/banner.png'
 keywords: ['trunk', 'розробка', 'VCS', 'робота']
