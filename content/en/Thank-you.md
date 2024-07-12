@@ -1,6 +1,6 @@
 ---
 title: Contacts
-url: '/thank-you'
+url: '/en/thank-you'
 omit_header_text: true
 layout: content-center
 ---
