@@ -1,6 +1,6 @@
 ---
 title: Contacts
-url: '/en/contacts'
+url: '/contacts'
 omit_header_text: true
 description: We'd love to hear from you
 type: page
@@ -13,6 +13,6 @@ layout: contacts-with-google-form
 form_folder: contacts-form
 submit_button: "Send"
 action: "https://docs.google.com/forms/d/e/1FAIpQLSdJNvbnLgqbiqlGbSJYdhe6gKUHQy2QotiD7aJABhYmIvZWFw/formResponse"
-response_page: '/en/thank-you'
+response_page: '/thank-you'
 section_image: '/content-images/contact_img.png'
 ---

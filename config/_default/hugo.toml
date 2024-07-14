@@ -36,7 +36,7 @@ DefaultContentLanguage = "ua"
     consent_save_preferences = 'Зберегти обрані'
  [languages.en]
   languageCode = 'en'
-  weight = 1
+  weight = 2
   contentDir = "content/en"
   [languages.en.params]
     footerContactButton = "Contact us"
