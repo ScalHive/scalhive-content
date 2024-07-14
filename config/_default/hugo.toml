@@ -44,7 +44,7 @@ DefaultContentLanguage = "ua"
     footer_contact_button_color = "#fde74c"
     footer_contact_button_text_color = "#2F2F2F"
     footerContactButtonPath = '/contacts/'
-    toMainPageButtonPath = '/'
+    toMainPageButtonPath = '/en/'
     customFooterLine1 = "Berezhans'ka St 10 "
     customFooterLine2 = '46027, Ternopil, Ukraine'
     customFooterLine3 = '+38 068 670 2808'
@@ -64,11 +64,11 @@ DefaultContentLanguage = "ua"
     consent_save_preferences = 'Save preferences'
 
 [params]
-favicon = '/img/scalhive_logo.ico'
-siteLogo = '/img/desktop_logo.png'
-siteLogoMobile = '/img/mobile_logo.png'
-showTitleNearLogo = false
-header_background_image = '/img/background_ph.webp'
+  favicon = '/img/scalhive_logo.ico'
+  siteLogo = '/img/desktop_logo.png'
+  siteLogoMobile = '/img/mobile_logo.png'
+  showTitleNearLogo = false
+  header_background_image = '/img/background_ph.webp'
 
 mobileMenuLight = true
 header_image_line = '/img/try_small.webp'
@@ -92,7 +92,7 @@ locationURL = "https://www.google.com/maps/dir//ScalHive/data=!4m8!4m7!1m0!1m5!1
 
 [services]
   [services.googleAnalytics]
-  ID = 'G-PK47LMB0RZ'
+    ID = 'G-PK47LMB0RZ'
 
 [[params.ananke_socials]]
 name = "dockerhub"
