@@ -92,7 +92,7 @@ locationURL = "https://www.google.com/maps/dir//ScalHive/data=!4m8!4m7!1m0!1m5!1
 
 [services]
   [services.googleAnalytics]
-    ID = 'GTM-NNGWH2D'
+  ID = 'G-PK47LMB0RZ'
 
 [[params.ananke_socials]]
 name = "dockerhub"
