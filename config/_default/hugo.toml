@@ -16,6 +16,34 @@ status = 404
 to = '/404.html'
 
 [languages]
+  [languages.ua]
+  languageCode = 'ua'
+  weight = 1
+  contentDir = "content/ua"
+  [languages.ua.params]
+    footerContactButton = "Зв'яжіться з нами"
+    toMainPageButton ="На головну"
+    footer_contact_button_color = "#fde74c"
+    footer_contact_button_text_color = "#2F2F2F"
+    footerContactButtonPath = '/ua/contacts/'
+    toMainPageButtonPath = '/ua/'
+    customFooterLine1 = 'вул. Бережанська 10'
+    customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
+    customFooterLine3 = '+38 068 670 2808'
+    customFooterLine4 = 'Email: team at scalhive.com'
+    read_more_button = 'Більше'
+    consent_manage = 'Керувати налаштуваннями'
+    consent_deny = 'Відмовити'
+    consent_allow = 'Дозволити'
+    consent_outer_message_1 = 'Ми хотіли б використовувати '
+    consent_outer_message_2 = ' для покращення функціональності даного вебсайту.'
+    consent_inner_message = 'сторонній код'
+    consent_description = 'Цей код дає нам уявлення про кількість людей, які відвідують наш веб-сайт, звідки вони та що вони натискають.'
+    consent_details_link_name = 'Політика конфіденційності'
+    consent_details_link = '/ua/about/privacy/#cookies'
+    consent_details = 'Детальніше'
+    consent_allow_all = 'Дозволити всі'
+    consent_save_preferences = 'Зберегти обрані'
  [languages.en]
   languageCode = 'en'
   weight = 1
@@ -44,34 +72,7 @@ to = '/404.html'
     consent_details = 'Details'
     consent_allow_all = 'Allow all'
     consent_save_preferences = 'Save preferences'
- [languages.ua]
-  languageCode = 'uk'
-  weight = 2
-  contentDir = "content/ua"
-  [languages.ua.params]
-    footerContactButton = "Зв'яжіться з нами"
-    toMainPageButton ="На головну"
-    footer_contact_button_color = "#fde74c"
-    footer_contact_button_text_color = "#2F2F2F"
-    footerContactButtonPath = '/ua/contacts/'
-    toMainPageButtonPath = '/ua/'
-    customFooterLine1 = 'вул. Бережанська 10'
-    customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
-    customFooterLine3 = '+38 068 670 2808'
-    customFooterLine4 = 'Email: team at scalhive.com'
-    read_more_button = 'Більше'
-    consent_manage = 'Керувати налаштуваннями'
-    consent_deny = 'Відмовити'
-    consent_allow = 'Дозволити'
-    consent_outer_message_1 = 'Ми хотіли б використовувати '
-    consent_outer_message_2 = ' для покращення функціональності даного вебсайту.'
-    consent_inner_message = 'сторонній код'
-    consent_description = 'Цей код дає нам уявлення про кількість людей, які відвідують наш веб-сайт, звідки вони та що вони натискають.'
-    consent_details_link_name = 'Політика конфіденційності'
-    consent_details_link = '/ua/about/privacy/#cookies'
-    consent_details = 'Детальніше'
-    consent_allow_all = 'Дозволити всі'
-    consent_save_preferences = 'Зберегти обрані'
+
 [params]
 favicon = '/img/scalhive_logo.ico'
 siteLogo = '/img/desktop_logo.png'
