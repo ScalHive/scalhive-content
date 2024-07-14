@@ -2,7 +2,7 @@
 title: Контакти
 url: '/ua/contacts'
 omit_header_text: true
-description: We'd love to hear from you
+description: Ми будемо раді почути вас
 type: page
 menu:
   main:
@@ -13,10 +13,6 @@ layout: contacts-with-google-form
 form_folder: contacts-form
 submit_button: "Відправити"
 action: "https://docs.google.com/forms/d/e/1FAIpQLSdJNvbnLgqbiqlGbSJYdhe6gKUHQy2QotiD7aJABhYmIvZWFw/formResponse"
-response_page: '/thank-you'
+response_page: '/ua/thank-you'
 section_image: '/content-images/contact_img.png'
 ---
-
-### ScalHive
-
-**email:** team@scalhive.com

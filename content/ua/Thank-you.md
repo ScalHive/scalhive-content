@@ -5,4 +5,4 @@ omit_header_text: true
 layout: content-center
 ---
 
-Дякуємо за Ваше повідомлення!
+Дякуємо за Ваше звернення!

@@ -1,9 +1,9 @@
 ---
 weight: 4
-label: "Назва вашої компанії"
+label: "Назва компанії"
 type: input
 input_type: text
-placeholder: "Назва вашої компанії*"
+placeholder: "Назва компанії *"
 name: "entry.2146480016"
 maxlength: 64
 required: required

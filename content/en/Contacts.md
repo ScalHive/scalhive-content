@@ -16,5 +16,3 @@ action: "https://docs.google.com/forms/d/e/1FAIpQLSdJNvbnLgqbiqlGbSJYdhe6gKUHQy2
 response_page: '/thank-you'
 section_image: '/content-images/contact_img.png'
 ---
-
-
