@@ -5,7 +5,7 @@ menu:
   main:
     identifier: services
     name: Services
-    weight: 3
+    weight: 2
 text_color: '#454545'
 final_message: Start using the best professional services today
 final_message_color: ""

@@ -7,6 +7,6 @@ menu:
   main:
     identifier: blog
     name: Блог
-    weight: 2
+    weight: 3
 ---
 Дописи
