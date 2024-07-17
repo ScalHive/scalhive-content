@@ -2,6 +2,7 @@
 title: "Trunk-Based Development: Branch for release"
 date: 2024-01-28T10:02:57+02:00
 type: article
+sharing_image: '/static-blog-images/post-2/banner.png'
 featured_image: '/static-blog-images/post-2/banner.png'
 keywords: ['development', 'VCS', 'work']
 ---
