@@ -6,6 +6,7 @@ cascade:
 
 layout: img-left-plus-right
 sections_folder_left: page-index-first
+sharing_image: '/img/scalhive_logo.png'
 section_title_two: "Послуги та підтримка ScalHive спрямовані на допомогу вам у швидкому впровадженні рішень, із зменшенням ризиків"
 sections_folder_right: page-index-second 
 ---

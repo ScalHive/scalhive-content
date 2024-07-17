@@ -10,6 +10,7 @@ menu:
     name: Конфіденційність
     weight: 2
 final_message: "При будь-яких запитаннях"
+sharing_image: '/img/scalhive_logo.png'
 layout: privacy
 ---
 
