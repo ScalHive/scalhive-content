@@ -14,5 +14,6 @@ form_folder: contacts-form
 submit_button: "Send"
 action: "https://docs.google.com/forms/d/e/1FAIpQLSdJNvbnLgqbiqlGbSJYdhe6gKUHQy2QotiD7aJABhYmIvZWFw/formResponse"
 response_page: '/thank-you'
+sharing_image: '/content-images/contact_img.png'
 section_image: '/content-images/contact_img.png'
 ---
