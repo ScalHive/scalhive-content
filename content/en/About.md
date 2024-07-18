@@ -1,7 +1,6 @@
 ---
 title: About us
 url: '/about'
-final_message: 'You can trust us with the implementation of your software products from idea to solutions'
 
 menu:
   main:

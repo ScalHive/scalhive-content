@@ -9,7 +9,6 @@ menu:
     parent: about
     name: Privacy
     weight: 2
-final_message: "For any questions"
 sharing_image: '/img/scalhive_logo.png'
 layout: privacy
 ---

@@ -7,8 +7,6 @@ menu:
     name: Services
     weight: 2
 text_color: '#454545'
-final_message: Start using the best professional services today
-final_message_color: ""
 layout: img-right
 sharing_image: "/content-images/services_img_1.png"
 sections_folder: page-services
