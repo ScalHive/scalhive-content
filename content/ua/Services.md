@@ -7,8 +7,6 @@ menu:
     name: Послуги
     weight: 2
 text_color: '#454545'
-final_message: Почніть користуватись найкращим вже тепер!
-final_message_color: ""
 sharing_image: "/content-images/services_img_1.png"
 layout: img-right
 sections_folder: page-services
