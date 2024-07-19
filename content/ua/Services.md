@@ -7,7 +7,7 @@ menu:
     name: Послуги
     weight: 2
 text_color: '#454545'
-sharing_image: "/content-images/services_img_1.png"
+sharing_image: '/img/scalhive_logo_high_res.png'
 layout: img-right
 sections_folder: page-services
 ---

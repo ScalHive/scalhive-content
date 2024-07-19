@@ -1,7 +1,7 @@
 ---
 title: Про нас
 url: '/ua/about'
-sharing_image: '/img/scalhive_logo.png'
+sharing_image: '/img/scalhive_logo_high_res.png'
 menu:
   main:
     identifier: about

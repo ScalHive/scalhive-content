@@ -9,7 +9,7 @@ menu:
     parent: about
     name: Privacy
     weight: 2
-sharing_image: '/img/scalhive_logo.png'
+sharing_image: '/img/scalhive_logo_high_res.png'
 layout: privacy
 ---
 
