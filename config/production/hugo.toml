@@ -1,3 +1,6 @@
 baseURL = 'https://fantastic-engine-z4g5o6k.pages.github.io'
 title = 'ScalHive'
 
+[services]
+  [services.googleAnalytics]
+    ID = 'G-ZSPXVPC066'
