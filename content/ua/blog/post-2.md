@@ -2,6 +2,7 @@
 title: "Розробка на основі стовбуру (Trunk): Гілка для релізу"
 date: 2024-01-28T10:02:57+02:00
 type: article
+sharing_image: '/static-blog-images/post-2/banner.png'
 featured_image: '/static-blog-images/post-2/banner.png'
 keywords: ['trunk', 'розробка', 'VCS', 'робота']
 ---

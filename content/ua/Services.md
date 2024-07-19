@@ -7,8 +7,7 @@ menu:
     name: Послуги
     weight: 2
 text_color: '#454545'
-final_message: Почніть користуватись найкращим вже тепер!
-final_message_color: ""
+sharing_image: '/img/scalhive_logo_high_res.png'
 layout: img-right
 sections_folder: page-services
 ---

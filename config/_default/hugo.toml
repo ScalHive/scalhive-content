@@ -3,65 +3,66 @@ languageCode = 'en-us'
 title = 'ScalHive'
 theme = ["github.com/TNTU-RS-internship/scalhive-theme"]
 
+default_sharing_image = '/img/scalhive_logo.png'
 DefaultContentLanguage = "ua"
 
 [languages]
   [languages.ua]
-  languageCode = 'ua'
-  weight = 1
-  contentDir = "content/ua"
-  [languages.ua.params]
-    footerContactButton = "Зв'яжіться з нами"
-    toMainPageButton ="На головну"
-    footer_contact_button_color = "#fde74c"
-    footer_contact_button_text_color = "#2F2F2F"
-    footerContactButtonPath = '/ua/contacts/'
-    toMainPageButtonPath = '/ua/'
-    customFooterLine1 = 'вул. Бережанська 10'
-    customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
-    customFooterLine3 = '+38 068 670 2808'
-    customFooterLine4 = 'Email: team at scalhive.com'
-    read_more_button = 'Більше'
-    consent_manage = 'Керувати налаштуваннями'
-    consent_deny = 'Відмовити'
-    consent_allow = 'Дозволити'
-    consent_outer_message_1 = 'Ми хотіли б використовувати '
-    consent_outer_message_2 = ' для покращення функціональності даного вебсайту.'
-    consent_inner_message = 'сторонній код'
-    consent_description = 'Цей код дає нам уявлення про кількість людей, які відвідують наш веб-сайт, звідки вони та що вони натискають.'
-    consent_details_link_name = 'Політика конфіденційності'
-    consent_details_link = '/ua/about/privacy/#cookies'
-    consent_details = 'Детальніше'
-    consent_allow_all = 'Дозволити всі'
-    consent_save_preferences = 'Зберегти обрані'
- [languages.en]
-  languageCode = 'en'
-  weight = 2
-  contentDir = "content/en"
-  [languages.en.params]
-    footerContactButton = "Contact us"
-    toMainPageButton ="Home Page"
-    footer_contact_button_color = "#fde74c"
-    footer_contact_button_text_color = "#2F2F2F"
-    footerContactButtonPath = '/contacts/'
-    toMainPageButtonPath = '/en/'
-    customFooterLine1 = "Berezhans'ka St 10 "
-    customFooterLine2 = '46027, Ternopil, Ukraine'
-    customFooterLine3 = '+38 068 670 2808'
-    customFooterLine4 = 'Email: team at scalhive.com'
-    read_more_button = 'Read more'
-    consent_manage = 'Manage preferences'
-    consent_deny = 'Deny'
-    consent_allow = 'Allow'
-    consent_outer_message_1 = 'We would like to use '
-    consent_outer_message_2 = ' to improve the functionality of this website.'
-    consent_inner_message = 'third party code'
-    consent_description = 'This code gives us insight into the number of people that visit our website, where they are from and what they are clicking on.'
-    consent_details_link_name = 'Privacy statement'
-    consent_details_link = '/about/privacy/#cookies'
-    consent_details = 'Details'
-    consent_allow_all = 'Allow all'
-    consent_save_preferences = 'Save preferences'
+    languageCode = 'ua'
+    weight = 1
+    contentDir = "content/ua"
+    [languages.ua.params]
+      footerContactButton = "Зв'яжіться з нами"
+      toMainPageButton ="На головну"
+      footer_contact_button_color = "#fde74c"
+      footer_contact_button_text_color = "#2F2F2F"
+      footerContactButtonPath = '/ua/contacts/'
+      toMainPageButtonPath = '/ua/'
+      customFooterLine1 = 'вул. Бережанська 10'
+      customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
+      customFooterLine3 = '+38 068 670 2808'
+      customFooterLine4 = 'Email: team at scalhive.com'
+      read_more_button = 'Більше'
+      consent_manage = 'Керувати налаштуваннями'
+      consent_deny = 'Відмовити'
+      consent_allow = 'Дозволити'
+      consent_outer_message_1 = 'Ми хотіли б використовувати '
+      consent_outer_message_2 = ' для покращення функціональності даного вебсайту.'
+      consent_inner_message = 'сторонній код'
+      consent_description = 'Цей код дає нам уявлення про кількість людей, які відвідують наш веб-сайт, звідки вони та що вони натискають.'
+      consent_details_link_name = 'Політика конфіденційності'
+      consent_details_link = '/ua/about/privacy/#cookies'
+      consent_details = 'Детальніше'
+      consent_allow_all = 'Дозволити всі'
+      consent_save_preferences = 'Зберегти обрані'
+  [languages.en]
+    languageCode = 'en'
+    weight = 2
+    contentDir = "content/en"
+    [languages.en.params]
+      footerContactButton = "Contact us"
+      toMainPageButton ="Home Page"
+      footer_contact_button_color = "#fde74c"
+      footer_contact_button_text_color = "#2F2F2F"
+      footerContactButtonPath = '/contacts/'
+      toMainPageButtonPath = '/en/'
+      customFooterLine1 = "Berezhans'ka St 10 "
+      customFooterLine2 = '46027, Ternopil, Ukraine'
+      customFooterLine3 = '+38 068 670 2808'
+      customFooterLine4 = 'Email: team at scalhive.com'
+      read_more_button = 'Read more'
+      consent_manage = 'Manage preferences'
+      consent_deny = 'Deny'
+      consent_allow = 'Allow'
+      consent_outer_message_1 = 'We would like to use '
+      consent_outer_message_2 = ' to improve the functionality of this website.'
+      consent_inner_message = 'third party code'
+      consent_description = 'This code gives us insight into the number of people that visit our website, where they are from and what they are clicking on.'
+      consent_details_link_name = 'Privacy statement'
+      consent_details_link = '/about/privacy/#cookies'
+      consent_details = 'Details'
+      consent_allow_all = 'Allow all'
+      consent_save_preferences = 'Save preferences'
 
 [params]
   favicon = '/img/scalhive_logo.ico'
@@ -92,7 +93,7 @@ locationURL = "https://www.google.com/maps/dir//ScalHive/data=!4m8!4m7!1m0!1m5!1
 
 [services]
   [services.googleAnalytics]
-    ID = 'G-ZSPXVPC066'
+    ID = 'G-85QMZ3W10W'
 
 [[params.ananke_socials]]
 name = "dockerhub"

@@ -2,6 +2,7 @@
 title: "Trunk Based Development: Introduction"
 date: 2024-01-27T20:02:30+02:00
 type: article
+sharing_image: '/static-blog-images/post-1/banner.png'
 featured_image: '/static-blog-images/post-1/banner.png'
 keywords: ['development', 'VCS', 'work']
 ---

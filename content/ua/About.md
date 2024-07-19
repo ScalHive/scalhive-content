@@ -1,8 +1,7 @@
 ---
 title: Про нас
 url: '/ua/about'
-final_message: 'Ви можете довірити нам впровадження вашого програмного забезпечення від ідеї до рішення'
-
+sharing_image: '/img/scalhive_logo_high_res.png'
 menu:
   main:
     identifier: about
