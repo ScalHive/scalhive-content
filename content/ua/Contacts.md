@@ -14,6 +14,6 @@ form_folder: contacts-form
 submit_button: "Відправити"
 action: "https://docs.google.com/forms/d/e/1FAIpQLSdJNvbnLgqbiqlGbSJYdhe6gKUHQy2QotiD7aJABhYmIvZWFw/formResponse"
 response_page: '/ua/thank-you'
-sharing_image: '/content-images/contact_img.png'
+sharing_image: '/img/scalhive_logo_high_res.png'
 section_image: '/content-images/contact_img.png'
 ---

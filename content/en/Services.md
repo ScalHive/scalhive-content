@@ -8,7 +8,7 @@ menu:
     weight: 2
 text_color: '#454545'
 layout: img-right
-sharing_image: "/content-images/services_img_1.png"
+sharing_image: '/img/scalhive_logo_high_res.png'
 sections_folder: page-services
 ---
 #### Modernizing businesses through innovative solutions, our expertise in data engineering, data science, big data analysis, and reactive application development forms the core for achieving ambitious goals with confidence and precision
