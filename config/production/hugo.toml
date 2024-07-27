@@ -1,6 +1,5 @@
 baseURL = 'https://miniature-adventure-5kzrlz3.pages.github.io/'
 title = 'ScalHive'
 
-[services]
-  [services.googleAnalytics]
-    ID = 'G-ZSPXVPC066'
+[params]
+  gtm = "GTM-KRVZ9F95"

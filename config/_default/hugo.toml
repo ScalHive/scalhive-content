@@ -70,6 +70,14 @@ DefaultContentLanguage = "ua"
   siteLogoMobile = '/img/mobile_logo.png'
   showTitleNearLogo = false
   header_background_image = '/img/background_ph.webp'
+  gtm = "GTM-KRVZ9F95"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
 
 mobileMenuLight = true
 header_image_line = '/img/try_small.webp'
@@ -83,17 +91,6 @@ footer_contact_button_color = "#fde74c"
 footer_contact_button_text_color = "#2F2F2F"
 site_color = '#fde74c' #brand color for buttons
 locationURL = "https://www.google.com/maps/dir//ScalHive/data=!4m8!4m7!1m0!1m5!1m1!1s0x473036d083560197:0xf041c38c1d785ec0!2m2!1d25.5614392!2d49.5510033"
-
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = false
-
-[services]
-  [services.googleAnalytics]
-    ID = 'G-85QMZ3W10W'
 
 [[params.ananke_socials]]
 name = "dockerhub"
