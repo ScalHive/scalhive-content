@@ -1,5 +1,5 @@
-module github.com/TNTU-RS-internship/scalhive-content
+module github.com/ScalHive/scalhive-content
 
 go 1.18
 
-require github.com/TNTU-RS-internship/scalhive-theme v1.6.1
+require github.com/ScalHive/scalhive-theme v1.6.2
