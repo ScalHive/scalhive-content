@@ -81,7 +81,7 @@ environment variable `DEV_BASE_URL` and secrets to connect with FTP-server - `FT
 
 There are two versions of website - `development` and `production`.
 - Development version of site deploys into url, that defined in `DEV_BASE_URL` variable.
-- Production version of site deploys into GitHub Pages on url https://scalhive.github.io/scalhive-content/
+- Production version of site deploys into GitHub Pages on url https://scalhive.com/
 (Generated automatically by GitHub)
 
 Website from `main` branch GitHub Actions builds using Hugo with `production` environment (HUGO_ENV=production)
